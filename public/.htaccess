@@ -1,0 +1,37 @@
+# <IfModule mod_rewrite.c>
+  # RewriteEngine On
+  # RewriteBase /
+
+# comment end
+
+  # Handle page reloads by serving index.html
+
+  # cooment start
+  # RewriteCond %{REQUEST_FILENAME} !-f
+  # RewriteCond %{REQUEST_FILENAME} !-d
+  # RewriteRule ^(.*)$ /index.html [L,QSA]
+  # comment end
+
+  # If you have assets in a specific folder (e.g., "static"), add exclusions
+  # RewriteCond %{REQUEST_URI} !^/static/
+
+  # If your app is hosted in a subdirectory, adjust the base
+  # RewriteBase /your-subdirectory/
+
+# </IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Handle page reloads by serving index.html
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ /index.html [L,QSA]
+
+  # If you have assets in a specific folder (e.g., "static"), add exclusions
+  # RewriteCond %{REQUEST_URI} !^/static/
+
+  # If your app is hosted in a subdirectory, adjust the base
+  # RewriteBase /your-subdirectory/
+</IfModule>

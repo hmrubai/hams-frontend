@@ -1,0 +1,239 @@
+html,
+body {
+  /* position: relative;
+  height: 100%; */
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-button {
+  background-color: rgba(255, 97, 0, 1) !important;
+  border-radius: 0px !important;
+}
+
+.swiper-button-prev {
+  transition: transform 0.4s ease;
+}
+
+.swiper-button-prev:hover {
+  transform: scale(0.5);
+}
+
+.swiper-button-next {
+  transition: transform 0.4s ease;
+}
+
+.swiper-button-next:hover {
+  transform: scale(0.5);
+}
+
+:root {
+  --swiper-theme-color: #050607;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: antiquewhite;
+}
+
+.image-margin {
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+.swiper-heading1 {
+  font-family: "Cabin", sans-serif;
+  font-size: 44px;
+  color: whitesmoke;
+}
+
+.swiper-caption-div {
+  border-right: 5px solid rgba(255, 97, 0, 1);
+}
+
+.swiper-heading2 {
+  font-family: "Cabin", sans-serif;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+@media (min-width: 200px) and (max-width: 991px) {
+  .image-margin {
+    margin-top: 60px;
+    margin-left: 120px;
+  }
+
+  .second-heading-margin {
+    margin-top: -50px;
+  }
+
+  .custom-height3 {
+    height: 72vh;
+  }
+  .swiper-caption-div {
+    border-right: none;
+  }
+  .swiper-heading1 {
+    font-family: "Cabin", sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+  }
+  .swiper-heading2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1368px) {
+  .custom-height1 {
+    height: 75vh;
+  }
+
+  .custom-height2 {
+    height: 25vh;
+  }
+
+  .swiper-heading1 {
+    font-family: "Cabin", sans-serif;
+    font-size: 35px;
+    color: whitesmoke;
+  }
+
+  .swiper-heading2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 14px;
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 1369px) {
+  .custom-height1 {
+    height: 78vh;
+  }
+
+  .custom-height2 {
+    height: 22vh;
+  }
+
+  .swiper-heading1 {
+    font-family: "Cabin", sans-serif;
+    font-size: 35px;
+    color: whitesmoke;
+  }
+
+  .swiper-heading2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 14px;
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 1724px) {
+  .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 95%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 90%);
+    right: auto;
+    top: var(--swiper-navigation-top-offset, 95%);
+  }
+}
+
+@media (max-width: 1700px) and (min-width: 1150px) {
+  .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 95%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 85%);
+    right: auto;
+    top: var(--swiper-navigation-top-offset, 95%);
+  }
+}
+
+@media (max-width: 1149px) and (min-width: 850px) {
+  .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 95%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 80%);
+    right: auto;
+    top: var(--swiper-navigation-top-offset, 95%);
+  }
+}
+
+@media (max-width: 849px) and (min-width: 668px) {
+  .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 90%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 75%);
+    right: auto;
+    top: var(--swiper-navigation-top-offset, 90%);
+  }
+}
+
+@media (max-width: 670px) and (min-width: 562px) {
+  .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 88%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 70%);
+    right: auto;
+    top: var(--swiper-navigation-top-offset, 88%);
+  }
+}
+
+@media (max-width: 561px) and (min-width: 480px) {
+  .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 88%);
+    right: var(--swiper-navigation-sides-offset, -10%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 75%);
+    right: auto;
+    top: var(--swiper-navigation-top-offset, 88%);
+  }
+}
+
+@media (max-width: 479px) {
+  .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 88%);
+    right: var(--swiper-navigation-sides-offset, -18%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 78%);
+    right: auto;
+    top: var(--swiper-navigation-top-offset, 88%);
+  }
+}
+
+@media (max-width: 767px) {
+}
+
+.swiper-button-prev {
+  background-image: url("../../../assets/HeroIcon/privious.png") !important;
+  background-repeat: no-repeat;
+  padding: 32px;
+}
+
+.swiper-button-next {
+  background-image: url("../../../assets/HeroIcon/next.png") !important;
+  background-repeat: no-repeat;
+  padding: 32px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "";
+  display: none;
+}

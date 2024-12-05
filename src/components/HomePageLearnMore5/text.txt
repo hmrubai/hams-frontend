@@ -1,0 +1,687 @@
+import React from "react";
+import "./LearnMore5.css";
+import section1 from "../../assets/company-menu-section/section1.png";
+import mission from "../../assets/company-menu-section/mission.png";
+import { BsFillStarFill } from "react-icons/bs";
+import { AiOutlineMinus, AiOutlineStar } from "react-icons/ai";
+import { BsDot } from "react-icons/bs";
+// import OverView from '../Shared/OverView/OverView';
+import rightArrow from "../../assets/right-arrow.png";
+// import ProgressBar from 'react-animated-progress-bar';
+import { Link } from "react-router-dom";
+import SideNav from "./SideNav";
+
+const LearnMore5 = () => {
+  const companyMenuData = [
+    {
+      id: "1",
+      heading1: "About HAMS",
+      heading2:
+        "Let's Talk About The <span className='minus-icon-style'>Company</span>",
+      description1:
+        "Lorem ipsum dolor sit amet, consectetuadipisicing elit. Iusto asperiores praesentium doloremque ipsam sit impeditadipisicing elit. Iusto asperiores praesentium doloremque ipsam sit impedit consecteturdistinctio accusamus, cum fugit. Eius earum optio amet eaque nostrum dicta animi illo maiores,",
+      description2:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, alias?",
+      // star1: "<BsFillStarFill />",
+      // star2: "<BsFillStarFill />",
+      // star3: "<BsFillStarFill />",
+      // star4: "<BsFillStarFill />",
+    },
+  ];
+  // const customStyle = {
+  //     backgroundColor: 'rgba(127, 198, 164, 1) !important',
+  //     color: 'rgba(127, 198, 164, 1)',
+  //     height: '5px',
+  // };
+  const now = 60;
+  return (
+    <div>
+      <div>
+        <section className="learnmore5-bg-image d-flex flex-column justify-content-center align-items-center">
+          <div className="d-flex flex-column align-items-center"></div>
+          <h1 className="text-white text-center">
+            We Believe in
+            <br />
+            <span className="hero-text">Digital Payment</span>
+          </h1>
+          {/* <div className='d-flex'>
+                        <Link to='/'>     <p className='text-white mb-0 mx-2'>Home</p></Link>
+                        <img src={rightArrow} className='mx-2' alt="" srcSet="" />
+                        <p className='text-white mb-0 mx-2'>Decarbonizaion</p>
+                    </div> */}
+        </section>
+
+        <section className="">
+          <div className="container-fluid">
+            <div className="">
+              <div className="row justify-content-center main-container mx-auto">
+                <div className="col-lg-2 col-sm-12 col-md-2 left-sidenav">
+                  {/* <OverView /> */}
+                  <SideNav />
+                </div>
+                <div className="col-lg-8 col-sm-12 col-md-8">
+                  <div
+                    id="designStudio"
+                    className="row flex-lg-row flex-column-reverse my-5 mx-lg-3 mx-sm-1"
+                  >
+                    {/* <div className="col-lg-7 col-md-7 col-sm-12 my-auto"> */}
+                    <div className="">
+                      <h4
+                        className="fw-bold"
+                        style={{ color: "rgba(255, 97, 0, 1)" }}
+                      >
+                        {/* <AiOutlineMinus className="minus-icon-style secondary-heading border-0" /> */}
+                        Design Studio
+                      </h4>
+                      <div className="d-flex">
+                        <div className="col-lg-7 col-md-7 col-sm-12 my-auto">
+                          <p className="mb-0 description-text mx-2">
+                            HAMS Design Studio stands as the creative nucleus
+                            within the HAMS Group, pioneering the innovative and
+                            trendsetting designs that define the essence of the
+                            brand. This cutting - edge studio is the birthplace
+                            of fashion-forward concepts and styles, driving the
+                            garment manufacturing process with an emphasis on
+                            aesthetics, functionality, and market relevance.
+                            Comprising a team of skilled designers, pattern
+                            makers, and trend analysts, the HAMS Design Studio
+                            is committed to staying ahead of industry trends,
+                            delivering fresh and captivating designs that
+                            resonate with diverse consumer preferences. This hub
+                            of creativity plays a pivotal role in ensuring that
+                            HAMS garments are not only of the highest quality
+                            but also at the forefront of fashion innovation.
+                          </p>
+                        </div>
+                        <div className="col-lg-5 col-md-5 col-sm-12 my-top zoom-container">
+                          <img
+                            src={section1}
+                            className="img-fluid zoomable-image"
+                            alt=""
+                            srcSet=""
+                          />
+                        </div>
+                      </div>
+                      <div>
+                        <p className="description-text">
+                          <h6 className="fw-bold">Digital Design Creation</h6>
+                          <p>
+                            The process starts with digital design creation
+                            using 3D design software. Designers at HAMS use
+                            tools like Clo3D to visualize garments in a three -
+                            dimensional space.
+                          </p>
+                        </p>
+
+                        <p className="description-text">
+                          <h6 className="fw-bold">Virtual Prototyping</h6>
+                          <p>
+                            Virtual prototyping allows designers to create a
+                            digital representation of the garment, including
+                            details like fabric texture, color, and patterns.
+                            This helps in assessing the overall look and feel of
+                            the design.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h6 className="fw-bold">
+                            Fit and Pattern Adjustments
+                          </h6>
+                          <p>
+                            Designers can make real-time adjustments to the fit
+                            and pattern of the garment within the 3D
+                            environment. This enables them to fine-tune details
+                            such as sizing, proportions, and seam placements.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h6 className="fw-bold">Material Simulation</h6>
+                          <p>
+                            The 3D design software enables realistic material
+                            simulation, allowing designers to visualize how
+                            different fabrics will drape and behave on the
+                            virtual garment. This aids in the selection of
+                            appropriate materials.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h6 className="fw-bold">
+                            Collaboration and Feedback
+                          </h6>
+                          <p>
+                            Collaboration tools integrated into the 3D design
+                            software facilitate communication between designers,
+                            pattern makers, and other stakeholders. Real-time
+                            feedback can be provided, streamlining the design
+                            iteration process.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h6 className="fw-bold">Cost and Time Efficiency</h6>
+                          <p>
+                            3D design significantly reduces the need for
+                            physical samples, saving both time and resources.
+                            Designers can experiment with various design
+                            iterations digitally before finalizing the prototype
+                            for physical production.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h6 className="fw-bold">Client Approval</h6>
+                          <p>
+                            Once the virtual prototype is ready, it can be
+                            shared with clients for approval. Clients can
+                            experience a lifelike representation of the garment
+                            and provide feedback before physical samples are
+                            produced.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h6 className="fw-bold">Reduced Iterations</h6>
+                          <p>
+                            The ability to visualize and make adjustments in a
+                            3D environment helps reduce the number of physical
+                            iterations needed, leading to faster and more
+                            accurate sample development.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h6 className="fw-bold">
+                            Efficient Communication with Manufacturers
+                          </h6>
+                          <p>
+                            The 3D designs serve as detailed references for
+                            manufacturers, ensuring that the final product
+                            closely aligns with the approved virtual prototype.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <p>
+                            By integrating 3D design technologies like Clo3D
+                            into their workflow, HAMS Garments enhances the
+                            efficiency, accuracy, and collaborative aspects of
+                            the sample development process, ultimately
+                            delivering high-quality garments to clients in a
+                            timely manner.
+                          </p>
+                        </p>
+                      </div>
+                    </div>
+                    {/* </div> */}
+                  </div>
+
+                  <div id="productsDevelopment">
+                    <div className="row my-5 mx-lg-3 mx-sm-1">
+                      <div className="col-md-5 col-lg-5 col-sm-12 my-auto zoom-container">
+                        <img
+                          src={mission}
+                          className="img-fluid zoomable-image"
+                          alt=""
+                          srcSet=""
+                        />
+                      </div>
+                      <div className="col-lg-7 col-md-7 col-sm-12 my-auto">
+                        <h4
+                          className="fw-bold"
+                          style={{ color: "rgba(255, 97, 0, 1)" }}
+                        >
+                          {/* <AiOutlineMinus className="minus-icon-style" /> */}
+                          Strengths in fabrication
+                        </h4>
+                        <p className="mb-0 description-text">
+                          HAMSGL offering versatility to meet various market
+                          demands by the fabrication process of HAMSGL:
+                        </p>
+                        <br />
+                      </div>
+
+                      <div className="mt-3">
+                        <p className="description-text">
+                          <h5 className="fw-bold">Fabric Variety</h5>
+                          <p>
+                            HAMSGL specializes in producing a wide array of
+                            fabrics, including 100% Cotton, Cotton blended with
+                            modal viscose, tencel, etc.
+                          </p>
+                          <p>
+                            Other fabric options include PC (Polyester-Cotton),
+                            CVC (Chief Value Cotton), PV (Polyester-Viscose),
+                            Linen, Hemp, and various blends.
+                          </p>
+                        </p>
+
+                        <p className="description-text">
+                          <h5 className="fw-bold">Innovative Designs</h5>
+                          <p>
+                            The company excels in creating innovative designs
+                            and fabric patterns, such as Siro/Grindle look
+                            quality, space-dyed look melange, inject yarn, snow
+                            effect quality, neppy look, lurex or metallic yarn,
+                            and more.
+                          </p>
+                          <p>
+                            Specialized fabrics like viscose melange, dope-dyed
+                            melange, and real indigo contribute to a diverse
+                            product range.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Knitting Expertise</h5>
+                          <p>
+                            HAMSGL has a well-equipped knitting unit with a
+                            capacity of 25,000 kgs per day production.
+                          </p>
+                          <p>
+                            The knitting unit features 64 sets of circular
+                            knitting machines, producing single jersey, fleece,
+                            terry, rib interlock, and other fabric types.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Dyeing Capabilities</h5>
+                          <p>
+                            The dyeing and finishing unit covers 70,000 sq. ft
+                            and has a production capacity of 30,000 kgs per day
+                            for dyeing and 40,000 kgs per day for finishing.
+                          </p>
+                          <p>
+                            The unit is equipped with 28 sets of dyeing machines
+                            and 20 sets of finishing machines, ensuring a
+                            comprehensive dyeing and finishing process.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">
+                            Advanced Knitting Technology
+                          </h5>
+                          <p>
+                            The knitting unit boasts 64 sets of circular
+                            knitting machines, producing a variety of fabric
+                            types, including single jersey, fleece, rib, and
+                            more.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Sustainability Measures</h5>
+                          <p>
+                            HAMSGL has incorporated sustainability into its
+                            fabric production, as evidenced by its efforts to
+                            reduce energy consumption, GHG emissions, and water
+                            usage per unit by 2030.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Capacity Expansion</h5>
+                          <p>
+                            The company plans to enhance its dyeing, sewing, and
+                            storage capacities, signaling a commitment to
+                            meeting growing market demands.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Quality Assurance</h5>
+                          <p>
+                            HAMSGL follows stringent quality standards,
+                            employing a 4-point system for fabric and AQL 1.5
+                            for finished garments.
+                          </p>
+                          <p>
+                            The company conducts lab tests with accredited
+                            partners such as ITS, SGS, BV, and in-house
+                            facilities for fabric and accessory testing.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Sustainable Fabrics</h5>
+                          <p>
+                            HAMSGL is well-versed in producing sustainable
+                            fabrics, contributing to a responsible and
+                            environmentally conscious approach in the fashion
+                            industry.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <p>
+                            HAMSGL's strengths in fabric innovation, diverse
+                            product offerings, sustainability initiatives, and
+                            future-focused expansion plans position it as a
+                            formidable player in the textile and garment
+                            manufacturing industry.
+                          </p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    id="designStudio"
+                    className="row flex-lg-row flex-column-reverse my-5 mx-lg-3 mx-sm-1"
+                  >
+                    {/* <div className="col-lg-7 col-md-7 col-sm-12 my-auto"> */}
+                    <div className="">
+                      <div className="d-flex">
+                        <div className="col-lg-7 col-md-7 col-sm-12 my-auto">
+                          <h4
+                            className="fw-bold"
+                            style={{ color: "rgba(255, 97, 0, 1)" }}
+                          >
+                            {/* <AiOutlineMinus className="minus-icon-style secondary-heading border-0" /> */}
+                            Strengths in fabrication
+                          </h4>
+                          <p className="mb-0 description-text mx-2">
+                            HAMSGL offering versatility to meet various market
+                            demands by the fabrication process of HAMSGL
+                          </p>
+                        </div>
+                        <div className="col-lg-5 col-md-5 col-sm-12 my-top zoom-container">
+                          <img
+                            src={section1}
+                            className="img-fluid zoomable-image"
+                            alt=""
+                            srcSet=""
+                          />
+                        </div>
+                      </div>
+                      <div className="mt-3">
+                        <p className="description-text">
+                          <h5 className="fw-bold">Fabric Variety</h5>
+                          <p>
+                            HAMSGL specializes in producing a wide array of
+                            fabrics, including 100% Cotton, Cotton blended with
+                            modal viscose, tencel, etc.
+                          </p>
+                          <p>
+                            Other fabric options include PC (Polyester-Cotton),
+                            CVC (Chief Value Cotton), PV (Polyester-Viscose),
+                            Linen, Hemp, and various blends.
+                          </p>
+                        </p>
+
+                        <p className="description-text">
+                          <h5 className="fw-bold">Innovative Designs</h5>
+                          <p>
+                            The company excels in creating innovative designs
+                            and fabric patterns, such as Siro/Grindle look
+                            quality, space-dyed look melange, inject yarn, snow
+                            effect quality, neppy look, lurex or metallic yarn,
+                            and more.
+                          </p>
+                          <p>
+                            Specialized fabrics like viscose melange, dope-dyed
+                            melange, and real indigo contribute to a diverse
+                            product range.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Knitting Expertise</h5>
+                          <p>
+                            HAMSGL has a well-equipped knitting unit with a
+                            capacity of 25,000 kgs per day production.
+                          </p>
+                          <p>
+                            The knitting unit features 64 sets of circular
+                            knitting machines, producing single jersey, fleece,
+                            terry, rib interlock, and other fabric types.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Dyeing Capabilities</h5>
+                          <p>
+                            The dyeing and finishing unit covers 70,000 sq. ft
+                            and has a production capacity of 30,000 kgs per day
+                            for dyeing and 40,000 kgs per day for finishing.
+                          </p>
+                          <p>
+                            The unit is equipped with 28 sets of dyeing machines
+                            and 20 sets of finishing machines, ensuring a
+                            comprehensive dyeing and finishing process.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">
+                            Advanced Knitting Technology
+                          </h5>
+                          <p>
+                            The knitting unit boasts 64 sets of circular
+                            knitting machines, producing a variety of fabric
+                            types, including single jersey, fleece, rib, and
+                            more.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Sustainability Measures</h5>
+                          <p>
+                            HAMSGL has incorporated sustainability into its
+                            fabric production, as evidenced by its efforts to
+                            reduce energy consumption, GHG emissions, and water
+                            usage per unit by 2030.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Capacity Expansion</h5>
+                          <p>
+                            The company plans to enhance its dyeing, sewing, and
+                            storage capacities, signaling a commitment to
+                            meeting growing market demands.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Quality Assurance</h5>
+                          <p>
+                            HAMSGL follows stringent quality standards,
+                            employing a 4-point system for fabric and AQL 1.5
+                            for finished garments.
+                          </p>
+                          <p>
+                            The company conducts lab tests with accredited
+                            partners such as ITS, SGS, BV, and in-house
+                            facilities for fabric and accessory testing.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Sustainable Fabrics</h5>
+                          <p>
+                            HAMSGL is well-versed in producing sustainable
+                            fabrics, contributing to a responsible and
+                            environmentally conscious approach in the fashion
+                            industry.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <p>
+                            HAMSGL's strengths in fabric innovation, diverse
+                            product offerings, sustainability initiatives, and
+                            future-focused expansion plans position it as a
+                            formidable player in the textile and garment
+                            manufacturing industry.
+                          </p>
+                        </p>
+                      </div>
+                    </div>
+                    {/* </div> */}
+                  </div>
+
+                  <div id="productsDevelopment">
+                    <div className="row my-5 mx-lg-3 mx-sm-1">
+                      <div className="col-md-5 col-lg-5 col-sm-12 my-auto zoom-container">
+                        <img
+                          src={mission}
+                          className="img-fluid zoomable-image"
+                          alt=""
+                          srcSet=""
+                        />
+                      </div>
+                      <div className="col-lg-7 col-md-7 col-sm-12 my-auto">
+                        <h4
+                          className="fw-bold"
+                          style={{ color: "rgba(255, 97, 0, 1)" }}
+                        >
+                          {/* <AiOutlineMinus className="minus-icon-style" /> */}
+                          Strengths in fabrication
+                        </h4>
+                        <p className="mb-0 description-text">
+                          HAMSGL offering versatility to meet various market
+                          demands by the fabrication process of HAMSGL:
+                        </p>
+                        <br />
+                      </div>
+
+                      <div className="mt-3">
+                        <p className="description-text">
+                          <h5 className="fw-bold">Fabric Variety</h5>
+                          <p>
+                            HAMSGL specializes in producing a wide array of
+                            fabrics, including 100% Cotton, Cotton blended with
+                            modal viscose, tencel, etc.
+                          </p>
+                          <p>
+                            Other fabric options include PC (Polyester-Cotton),
+                            CVC (Chief Value Cotton), PV (Polyester-Viscose),
+                            Linen, Hemp, and various blends.
+                          </p>
+                        </p>
+
+                        <p className="description-text">
+                          <h5 className="fw-bold">Innovative Designs</h5>
+                          <p>
+                            The company excels in creating innovative designs
+                            and fabric patterns, such as Siro/Grindle look
+                            quality, space-dyed look melange, inject yarn, snow
+                            effect quality, neppy look, lurex or metallic yarn,
+                            and more.
+                          </p>
+                          <p>
+                            Specialized fabrics like viscose melange, dope-dyed
+                            melange, and real indigo contribute to a diverse
+                            product range.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Knitting Expertise</h5>
+                          <p>
+                            HAMSGL has a well-equipped knitting unit with a
+                            capacity of 25,000 kgs per day production.
+                          </p>
+                          <p>
+                            The knitting unit features 64 sets of circular
+                            knitting machines, producing single jersey, fleece,
+                            terry, rib interlock, and other fabric types.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Dyeing Capabilities</h5>
+                          <p>
+                            The dyeing and finishing unit covers 70,000 sq. ft
+                            and has a production capacity of 30,000 kgs per day
+                            for dyeing and 40,000 kgs per day for finishing.
+                          </p>
+                          <p>
+                            The unit is equipped with 28 sets of dyeing machines
+                            and 20 sets of finishing machines, ensuring a
+                            comprehensive dyeing and finishing process.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">
+                            Advanced Knitting Technology
+                          </h5>
+                          <p>
+                            The knitting unit boasts 64 sets of circular
+                            knitting machines, producing a variety of fabric
+                            types, including single jersey, fleece, rib, and
+                            more.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Sustainability Measures</h5>
+                          <p>
+                            HAMSGL has incorporated sustainability into its
+                            fabric production, as evidenced by its efforts to
+                            reduce energy consumption, GHG emissions, and water
+                            usage per unit by 2030.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Capacity Expansion</h5>
+                          <p>
+                            The company plans to enhance its dyeing, sewing, and
+                            storage capacities, signaling a commitment to
+                            meeting growing market demands.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Quality Assurance</h5>
+                          <p>
+                            HAMSGL follows stringent quality standards,
+                            employing a 4-point system for fabric and AQL 1.5
+                            for finished garments.
+                          </p>
+                          <p>
+                            The company conducts lab tests with accredited
+                            partners such as ITS, SGS, BV, and in-house
+                            facilities for fabric and accessory testing.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <h5 className="fw-bold">Sustainable Fabrics</h5>
+                          <p>
+                            HAMSGL is well-versed in producing sustainable
+                            fabrics, contributing to a responsible and
+                            environmentally conscious approach in the fashion
+                            industry.
+                          </p>
+                        </p>
+                        <p className="description-text">
+                          <p>
+                            HAMSGL's strengths in fabric innovation, diverse
+                            product offerings, sustainability initiatives, and
+                            future-focused expansion plans position it as a
+                            formidable player in the textile and garment
+                            manufacturing industry.
+                          </p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* <div className="row my-5 mx-lg-3 mx-sm-1 flex-lg-row flex-column-reverse">
+                    <div className="col-lg-7 col-md-7 col-sm-12 my-auto">
+                      <h6>
+                        {" "}
+                        <AiOutlineMinus className="minus-icon-style" />
+                        Why Choose Us?
+                      </h6>
+                      <h3>
+                        29 Years Of{" "}
+                        <span className="minus-icon-style">Experience</span> On
+                        Garment Industry
+                      </h3>
+                      <p className="mb-0 description-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Iusto asperiores praesentium doloremque ipsam sit
+                        impedit consectetur distinctio accusamus, cum fugit.
+                        Eius earum optio amet eaque nostrum dicta animi illo
+                        maiores,{" "}
+                      </p>
+                      <h6>Category 1</h6>
+                    </div>
+                    <div className="col-lg-5 col-md-5 col-sm-12 my-auto zoom-container my-auto">
+                      <img
+                        src={section1}
+                        className="img-fluid zoomable-image"
+                        alt=""
+                        srcSet=""
+                      />
+                    </div>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+};
+
+export default LearnMore5;

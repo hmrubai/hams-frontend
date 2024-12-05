@@ -1,0 +1,13 @@
+.employee-bg-image {
+  background-image: url("../../assets/otherPageCover/employeeFirst.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+.heading-icon-sizing {
+  width: 2rem;
+  height: 2rem;
+}

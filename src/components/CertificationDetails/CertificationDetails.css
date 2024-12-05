@@ -1,0 +1,66 @@
+.certification-details-bg-image {
+  background-image: url("../../assets/otherPageCover/employeeFirst.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+.brand-color {
+  background-color: rgba(255, 97, 0, 1);
+}
+
+.vertical-margin {
+  display: inline-block;
+  width: 0;
+  height: 10px;
+}
+
+.brand-text-color {
+  color: rgba(255, 97, 0, 1);
+}
+
+.photo-text-position-emplyee {
+  position: relative;
+  display: inline-block;
+}
+
+.photo-text-overlay-emplyee {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  /box-sizing: border-box;
+}
+
+.photo-text-position1 {
+  position: relative;
+  display: inline-block;
+}
+
+.photo-text-overlay1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.text-justify {
+  text-align: justify;
+}

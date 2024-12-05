@@ -1,0 +1,8 @@
+.active-link {
+    color: rgba(255, 97, 0, 1) !important;
+    font-weight: bold;
+}
+
+.nav-link::after {
+    /* content: '\2192'; */
+}

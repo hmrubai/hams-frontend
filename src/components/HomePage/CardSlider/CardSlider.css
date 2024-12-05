@@ -1,0 +1,32 @@
+.slider-icon.left {
+  background-color: rgba(255, 97, 0, 1);
+}
+.slider-icon.right {
+  background-color: rgba(255, 97, 0, 1);
+}
+.slider-bottom-margin {
+  margin-bottom: 100px;
+}
+
+.slider-card-description {
+  opacity: 4;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  width: 350px;
+  height: 250px;
+}
+
+.image-container img {
+  transition: transform 0.3s ease;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container:hover img {
+  transform: scale(1.2);
+}

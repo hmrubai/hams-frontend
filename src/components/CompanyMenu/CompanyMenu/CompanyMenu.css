@@ -1,0 +1,15 @@
+.companyBGImage {
+  background-image: url("../../../assets/otherPageCover/sustainability.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+.star-icon {
+  color: rgba(255, 194, 114, 1);
+}
+.dot-icon2 {
+  color: rgba(255, 97, 0, 1);
+  font-size: 24px;
+}

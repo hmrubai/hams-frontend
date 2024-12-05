@@ -1,0 +1,641 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+/* __________Hero Section CSS start________________________________ */
+/* linear-gradient(to bottom, rgba(29, 47, 64, 0.8), rgba(29, 47, 64, 0.8)), */
+.backgroundImage {
+  /* background-image: url("../../assets/layout0/AboutUsCover.jpg"); */
+  background-image: url("../../assets/otherPageCover/aboutUs.jpg");
+  /* background-image:
+    linear-gradient(to bottom, rgba(29, 47, 64, 0.8), rgba(29, 47, 64, 0.8)),
+    url('../../assets/layout0/AboutUsCover.jpg'); */
+  width: auto;
+  height: 100vh;
+  background-size: cover;
+}
+
+.hero-h-span {
+  color: rgba(127, 198, 164, 1);
+}
+
+.hero-p {
+  color: rgba(255, 255, 255, 1);
+}
+
+.heroTextStyle {
+  max-width: 100%;
+  /* Allow the content to adjust its width based on the parent container */
+  /* padding: 20px; */
+  /* Add some padding for spacing */
+  text-align: center;
+  /* Center-align the text */
+}
+
+@media (min-width: 768px) {
+  /* Apply responsive styles for medium-sized devices (md) and larger */
+  .backgroundImage {
+    height: 100vh;
+    /* Increase the height for larger screens */
+  }
+
+  .heroTextStyle {
+    /* max-width: 420px; */
+    /* Specify a maximum width for medium-sized screens */
+    margin-top: 0;
+    /* Remove top margin */
+    margin-left: auto;
+    /* Center-align horizontally by using auto margins */
+    margin-right: auto;
+  }
+}
+
+/* _____________Hero Section CSS end_________________________________ */
+
+/* _____________Who we are section start___________________________ */
+
+.vscChromeMinimize-bg {
+  color: rgba(127, 198, 164, 1);
+}
+
+.black-clr {
+  color: rgba(51, 51, 51, 1);
+}
+
+.unveiling-clr {
+  color: rgba(29, 47, 64, 1);
+}
+
+.p-low-clr {
+  color: rgba(51, 51, 51, 0.75);
+}
+
+.svm {
+  color: rgba(255, 97, 0, 1);
+}
+
+/* .accordion-header {
+  background-color: blue;
+} */
+
+/* .x-accordion-heading .x-accordion-toggle {
+  background: #ff0000;
+} */
+
+.accordion-button:not(.collapsed) {
+  /* color: white; */
+  color: black;
+  /* background-color: rgba(255, 97, 0, 1); */
+  /* box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0
+    var(--bs-accordion-border-color); */
+}
+
+.accordion-body {
+  background-color: rgba(245, 245, 247, 1);
+}
+
+/* .accordion-button {
+  background-color: white;
+} */
+
+.accordion-button {
+  /* color: rgba(255, 97, 0, 1);  */
+  /* background-color: antiquewhite; */
+}
+
+/* .accordion-button:not(.collapsed)::after {
+  color: blue !important;
+}
+
+.accordion-button.collapsed::after {
+  color: blueviolet !important
+}
+
+.accordion-button.collapsed::before {
+  color: red !important
+} */
+
+.accordion-button::after {
+  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='black' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E");
+  transition: all 0.5s; */
+  background-image: url("../../assets/AllPhotoFinal/AccordianIcon/arrow_down_icon.png");
+  /* background-color: aqua; */
+}
+
+/* .accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN8AAACUCAMAAAAkuAyxAAAAbFBMVEX///8AAAD8/Pz5+fny8vKFhYWpqamwsLDv7++tra319fWVlZWlpaWzs7O5ubnNzc0QEBAVFRUgICDAwMAlJSWfn58aGhro6Ojc3NyPj48tLS1+fn7GxsYJCQnT09M/Pz9RUVFvb29ISEhkZGQzNVrKAAAFC0lEQVR4nO2c65aiOhBGoRAZ8AbitRVneub93/Fg07YBv1Ju3amsU/uvmlVlkk0oQjxPURRFURRFURRFURRFURRF+b8S7FdRtNoHIzZ4WcRjNjiIw9H/IDyM1mBRNXgRkGGQv/mfvOU0Rovn37cGN4vAG6XJIdF8pVcmuByhwdxocLMky/nt//oG63xgc+SdN2aDb/tRouxP5NcZmuCl0d7Wbv8lf/xRE1w1m3ubjBRpPybNeHx/OeAff0jP93+NF2wPfj0GlC16J5jvHMivtHrPBE1zCskv+Q1CWi96tNQ05yc7u/OPZiCmcg72aKppzoqT5SXMAf3pvt+9B4Faroy15usLRekoPcikt7W+Ak1mGQos7XaZOMN/KQ3t2uWDBE/BTdQhQWjO8gZCQHrlHcQWBtfBomec3smuO+8cYXhF2wRXeAq/f2vMncBD1I9a/ZhRy+mbY+5CMGMs2mIO4vSKMPn+sNszwRb145cJnuHvRJjTZIKH6Dp+cQHL8fpAWnrsZWL9vAe5C4MUc5pgi6aRx9WIyFvhUf1uu6gEIC5BP2Z/44A5TWiLLcr1IGdO62tOjmQGbsCvPQgjdsScJgnuwd0UJOiMOU0CxqLThwHqkjkNCEsmi2tzkLwzHsnvYudeBW/Rae17eO5dzSnw0lCHZgWM3bzQMxeG0P7jlBZwFr1LhjOn8Ll3Y4LvJrJbgvkafVyU5nSg965wa9EqQdHFiHYwl4lsXnbQGfae9UJnF8osQphEaVFGLYKKEe1gShbM1SMkV+beDc6iCGfMaZIwNZlHHDKnCWNRMDgdMucd4iza5CSqUtYJxiY1nDPnjeuUet2DLiypeQKmLnojlVXG7Qqxhd9bek6a04Qp/Fa4ac46TyzqsDlNOItKrXN2hVlSD96rJoScHZ/9dzoJYvnEL6+eLsmHlriMW7FGhV+neJrey8dn4slxrfBO0e4ZvVCezb2vOWg7yP7w5jRx1aLUpvc+etDJBGmBC4GPuGnRF+asJ+haD5KX4+rSw377DwrnJMPMvZM3xx84liA253XrAM2ZnU62Q+4C7r2qjBvMsXfcWYvSApaui2N1tx7gHoSbEESyYHZG3IrwAZ6DbliUvCWeYMa2HZrCb6ROzEHGnGHtS3hLc2MTgkhwekXYGHuMRaUnyKw5s2OzUkaMRWVLhiL8MsRx0ijjkpfMoWTTueAEKcLmPKLHlwGWzFpsgqU58SPbI46YYvjtTOwcbGXOL4i4tej8Z8NuywIGWxzZH5AX4/KMxAQZc+5mT6YT0ZSxqLiVDC3wG2Cz5MkDMColg/dqSZMMRbgjZq82fjhiUabW8mxwfkLNEwIqMlFDlDEnrxYTxqKCLhP4QubPvBanY5TfYCy6/YHI28Cbs+UQo1jyWpSZQLun5qzDWNSXIBnOnNsuW+YCPER31hMkeGaE3/nFbs6ifU5CGJU9OqDhqpau4OvgxvL7/YTl3ll9xC1fmXuPnyL5C2La9Tp1AFtU3vk2/nrb7zWNIEZ3x+LOf0m3fXclBTFYo4vLb8CRGMiils+3eZh/3c1p8pDgxvL5Nk1/Dlo0lsvVZoKW/ekdai/b7IYfV1ZfDmX2z7cx1i/D70qpbtHM+gLNm9zrtOl0jP2cwf3pWvry9v8HCFb/qmj+rcb5s+nyXjX45yxj/+vkMA/D+WG8/zo5TMsGLwI673v4lJTtszEVRVEURVEURVEURVEURVEk8x+JmTKCfSfhCQAAAABJRU5ErkJggg==");
+} */
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../assets/AllPhotoFinal/AccordianIcon/arrow_down_icon.png");
+}
+
+.focus-ring-none .accordion-button:focus {
+  box-shadow: none !important;
+}
+
+/* _____________Who we are section end___________________________ */
+
+/* _______________All color css start__________________________________ */
+
+.vm {
+  color: rgba(127, 198, 164, 1);
+}
+
+/* .who{
+    color: rgba(127, 198, 164, 1);
+} */
+.bg-quality {
+  background-color: rgba(101, 189, 147, 0.15);
+}
+
+/* _______________All color css end__________________________________ */
+
+/* _________________QualitySection start_______________________________ */
+
+/* ___________________QualitySection end__________________________________ */
+
+.quality {
+  color: rgba(51, 51, 51, 1);
+  border-bottom: 3px solid rgba(255, 97, 0, 1);
+  display: inline;
+  padding-bottom: 3px;
+}
+
+.quality-bg {
+  background: rgba(255, 255, 255, 1);
+}
+
+/* _________________All Font Style start________________________________ */
+
+/* __________________All Font Style end_______________________________ */
+
+.border1 {
+  /* max-width: 40ch;
+  padding: 1rem;
+  border-width: 2px; */
+  border-style: solid;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(255, 97, 0, 0.6),
+      rgba(101, 189, 147, 1) /* transparent */
+    )
+    0 0 0 1;
+}
+
+/* _______________Client section start__________________________________ */
+.bg-Image-Client {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(29, 47, 64, 0.8),
+      rgba(29, 47, 64, 0.8)
+    ),
+    url("../../assets/client.jpg");
+  width: auto;
+  /* height: 80vh; */
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/* _______________Client section end__________________________________ */
+
+/* _______________Customer Support section start__________________________________ */
+
+/* .bg-Image-Customer{
+    background-image:
+    linear-gradient(to bottom,rgba(29, 47, 64, 0.8), rgba(29, 47, 64, 0.8)),
+    url('../../assets/customersupport.png');
+    width: auto;
+
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center;
+} */
+
+/* ________________Customer Support section end__________________________________ */
+
+.elevating-headline {
+  border-bottom: "3px solid rgba(127, 198, 164, 1)";
+  display: "inline-block";
+  padding-bottom: "4px";
+}
+
+.evevating-bg {
+  background: rgba(237, 249, 255, 1);
+}
+
+/* ______________Process section start___________________________________ */
+.product-gradient-clr {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.15),
+    rgba(101, 189, 147, 0.15)
+  );
+}
+
+/* _________________Process section end________________________________ */
+
+/* _________________________________________________ */
+
+.circle {
+}
+
+.quality-card-bg {
+  background-color: rgba(101, 189, 147, 0.15);
+}
+
+.item {
+  top: 150px;
+}
+
+/* .row{
+    flex-direction: row-reverse;
+} */
+
+.col-1 {
+  /* width: 200px; */
+  /* height: 200px; */
+  /* border: 2px black solid; */
+  float: left;
+  /* background-color: aquamarine; */
+}
+
+.col-2 {
+  /* width: 200px; */
+  /* height: 200px; */
+  /* border: 2px black solid; */
+  float: left;
+  position: relative;
+  /* background-color: blue; */
+  top: 195px;
+}
+
+/* .col-3{
+    width: 200px;
+    height: 200px;
+
+    float: left;
+    background-color: brown;
+
+} */
+
+/* border: 2px black solid; */
+
+/* =============start====timeline=================== */
+
+/* .intro img{
+    max-height: 500px;
+    }
+    .position-relative {
+      position: relative;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(36, 35, 35, 0.5);
+    }
+
+    .centered-content {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 100%;
+      max-width: 100%;
+      font-size: 1.5rem;
+    }
+    .centered-link {
+      position: absolute;
+      top: 47%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      width: 100%;
+      max-width: 100%;
+    }
+    .centered-content h6{
+      font-size: 29px;
+      font-weight: 600;
+    }
+    .centered-link h6{
+      font-size: 30px;
+      font-weight: 500;
+    }
+    .centered-link i{
+      font-size: 60px;
+    }
+
+    .imagebanner {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .signage {
+      overflow-wrap: break-word;
+      max-width: 100%;
+      margin: 0;
+    }
+    .signage-display{
+      margin-top: -209px;
+    }
+    @media (max-width: 1020px) {
+      .signage-display{
+        margin-top: -153px;
+      }
+
+    }
+
+    @media (max-width: 720px) {
+      .centered-content {
+       max-width: 90%;
+       font-size: 20px;
+     }
+     .signage {
+     overflow-wrap: break-word;
+     max-width: 100%;
+     margin: 0;
+    }
+    .centered-content h6{
+     font-size: 20px;
+    }
+    .centered-link h6{
+     font-size: 15px;
+    }
+    .centered-link i{
+      font-size: 40px;
+    }
+    .centered-link {
+      position: absolute;
+      top: 58%;
+      left: 50%; */
+/* transform: translate(-50%, -50%);
+      text-align: center;
+      width: 100%;
+      max-width: 100%;  */
+/* }
+    .signage-display{
+      margin-top: -57px;
+    }
+    } */
+
+/* ---------------------------------------------------- */
+.timeline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 40px 0;
+      padding: 0px;  */
+}
+
+.timeline-line-horizontal {
+  flex: 1;
+  border: 2px solid rgba(116, 125, 146, 1);
+  background-color: rgba(116, 125, 146, 1);
+  height: 10px;
+}
+
+.timeline-item {
+  flex: 1;
+  /* padding: 20px; */
+  text-align: start;
+  position: relative;
+  transition: margin-top 0.3s;
+}
+
+.timeline-date {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.above-line {
+  margin-top: 170px;
+  /* margin-top: 130px; */
+  /* Adjust this value for spacing */
+}
+
+.below-line {
+  margin-top: -102px;
+  /* margin-top: -67px; */
+  /* Adjust this value for spacing */
+}
+
+.down-image {
+  position: relative;
+  margin-top: 123px;
+  /* left: 20px; */
+}
+
+.up-image {
+  position: relative;
+  margin-top: -60px;
+  /* left: 20px; */
+}
+
+.half_border {
+  position: relative;
+}
+
+.half_border div:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  bottom: 0;
+  width: 3px;
+  height: 150%;
+  /* top: 190px; */
+  top: 135px;
+  background-image: radial-gradient(rgba(116, 125, 146, 1) 3px, transparent 0);
+  background-size: 10px 10px;
+  background-position: -5px -5px;
+}
+
+/* .timeline-line-vertical {
+        width: 2px;
+        height: 100px; /* Adjust the height as needed */
+/* background: #f1eeee; */
+
+/* }  */
+
+/* ==============end======timeline======================== */
+
+/******************** Custom CSS *********************/
+
+.timeline {
+  display: flex;
+  flex-direction: col;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 40px 0;
+    padding: 0px;  */
+}
+
+.timeline-line-horizontal {
+  flex: 1;
+  border: 2px solid rgba(116, 125, 146, 1);
+  background-color: rgba(116, 125, 146, 1);
+  height: 10px;
+}
+
+.timeline-item {
+  flex: 1;
+  /* padding: 20px; */
+  text-align: start;
+  position: relative;
+  transition: margin-top 0.3s;
+}
+
+.timeline-date {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.above-line {
+  /* margin-top: 170px; */
+  margin-top: 130px;
+  /* Adjust this value for spacing */
+}
+
+.below-line {
+  /* margin-top: -102px; */
+  margin-top: -67px;
+  /* Adjust this value for spacing */
+}
+
+.down-image {
+  position: relative;
+  margin-top: 123px;
+  /* left: 20px; */
+}
+
+.up-image {
+  position: relative;
+  margin-top: -60px;
+  /* left: 20px; */
+}
+
+/*  */
+
+.scrollable-div {
+  min-width: 1401px;
+  /* Set a minimum width for the content */
+  max-width: 100%;
+  /* Allow the content to grow up to 100% of the viewport width */
+  overflow-x: auto;
+  /* Enable horizontal scrolling if content overflows */
+  overflow-y: auto;
+  /* Enable vertical scrolling if content overflows */
+  /* Your existing styles for the container */
+}
+
+/* ================================================== */
+
+.parent {
+  position: relative;
+}
+
+.children {
+  position: absolute;
+  /* top: 0; */
+  top: -20px;
+  left: 113px;
+}
+
+.zoom-container {
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.9s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  transform-origin: center center;
+}
+
+.zoom-container:hover .zoomable-image {
+  transform: scale(1.2);
+  transition: transform 0.4s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+.zoomable-image {
+  width: 100%;
+  height: auto;
+}
+
+.color-effect {
+  transition: transform 0.2s;
+}
+
+.color-effect:hover {
+  transform: scale(1.1);
+  /* border-radius: 5px; */
+  background-color: rgba(29, 47, 64, 1);
+  color: white;
+}
+
+.index-card {
+  background: white;
+}
+
+.index-card:hover {
+  background: red;
+}
+
+/* ======================================= */
+
+.quotes .box {
+  /* width: 25vw;
+  min-height: 50vh;
+  min-height: 320px; */
+  background: rgba(101, 189, 147, 0.15);
+  transition: 0.5s;
+  color: rgba(29, 47, 64, 1);
+}
+
+.quotes .box:hover {
+  color: #f2f2f2;
+}
+
+.quotes .box1:hover,
+.quotes .box1:hover ~ .bg {
+  opacity: 1;
+  background: rgba(29, 47, 64, 1);
+}
+
+.accordion-button {
+  margin: 1px;
+  padding: 2px;
+  font-weight: bold;
+}
+
+/* mobile Timeline */
+.vertical-timeline-element-content p {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ============================owner text============ */
+
+.rec.rec-arrow {
+  border-radius: 0;
+}
+/* round buttons on hover */
+.rec.rec-arrow:hover {
+  border-radius: 50%;
+}
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
+/* disable default outline on focused items */
+/* add custom outline on focused items */
+.rec-carousel-item:focus {
+  outline: none;
+  /* box-shadow: inset 0 0 1px 1px lightgrey; */
+  box-shadow: 0 2px 4px #0003, 0 6px 12px #00000030;
+}
+
+.text-justify {
+  text-align: justify;
+}

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Roboto&family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.div-gradient-clr {
+  background-image: linear-gradient(rgb(247, 249, 248), rgb(243, 236, 236));
+}
+
+.backgroundProductSImage {
+  background-image: url("../../assets/otherPageCover/productServices.jpg");
+  width: auto;
+  height: 100vh;
+  background-size: cover;
+}
+
+.background-H {
+  color: rgba(255, 255, 255, 1);
+}
+.back-txt-clr {
+  color: rgba(127, 198, 164, 1);
+}
+
+.VscChromeMinimizeColor {
+  color: rgba(127, 198, 164, 1) !important;
+}
+.H6D-txt-Color {
+  color: rgba(51, 51, 51, 1);
+}
+.Product-txt-color {
+  color: rgba(29, 47, 64, 1);
+}
+.product-p-color {
+  color: rgba(51, 51, 51, 0.75);
+}
+.delivery-date-color {
+  color: rgba(255, 97, 0, 1);
+}
+
+.productOver-color {
+  color: rgba(51, 51, 51, 1);
+}
+
+.productOver-p-color {
+  color: rgba(51, 51, 51, 0.75);
+}
+.other-pro-txt-color {
+  color: rgba(51, 51, 51, 0.75);
+}
+
+.pattern-p {
+  color: rgba(51, 51, 51, 0.75);
+}
+
+.recent-p {
+  color: rgba(29, 47, 64, 1);
+}
+
+.text-justify {
+  text-align: justify;
+}

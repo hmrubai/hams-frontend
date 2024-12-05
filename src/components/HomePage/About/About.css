@@ -1,0 +1,42 @@
+.section-heading-text {
+  font-size: 30px;
+  line-height: 30px;
+}
+.list-style li {
+  list-style: none;
+}
+.list-icon-bg {
+  color: rgba(127, 198, 164, 1);
+}
+/* .secondary-heading {
+    font-size: 15px;
+    line-height: 21px;
+    border-bottom: 3px solid rgba(255, 97, 0, 1);
+    display: inline-block;
+    padding-bottom: 4px;
+} */
+/* .experience {
+    height: 150px;
+    width: 140px;
+    border-radius: 6px;
+} */
+/* .experience-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.about-button {
+  background-color: rgba(255, 97, 0, 1) !important;
+  border-radius: 0 !important;
+  margin-top: -5px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.experience-year {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+}

@@ -1,0 +1,18 @@
+.zoom-effect {
+  transition: transform 0.2s;
+  color: rgb(15, 15, 15);
+  font-size: 13px;
+}
+.zoom-effect:hover {
+  transform: scale(1.1);
+  border-radius: 5px;
+  background-color: rgba(255, 97, 0, 1);
+  color: rgb(17, 16, 16);
+}
+.provided-service-section {
+  background-color: rgb(170 176 173 / 50%);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+}
+.text-justify {
+  text-align: justify;
+}

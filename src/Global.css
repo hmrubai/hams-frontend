@@ -1,0 +1,33 @@
+/* src/global.css */
+/* Base font-family for the entire body */
+body {
+    font-family: 'Cabin', sans-serif;
+  }
+  
+  /* Custom font classes with unique identifiers and weights */
+  .cabin-normal-400 {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+  .cabin-bold-700 {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  
+  .cabin-italic-400 {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-variation-settings: "wdth" 100;
+  }
+  
+  /* Add more classes as needed with different variations */
+  

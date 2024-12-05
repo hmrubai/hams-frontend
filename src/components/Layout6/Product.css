@@ -1,0 +1,101 @@
+
+
+.grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+
+}
+
+/* .product-gradient-clr{ */
+
+  /* background-image: linear-gradient(rgba(101, 189, 147, 0.15), rgba(255, 255, 255, 0.15)); */
+
+  /* background-image: linear-gradient(to bottom right, rgba(106, 245, 176, 0.15), rgba(232, 183, 183, 0.15)); */
+/* } */
+  
+
+/* .img-wrapper {
+    position: relative;
+    overflow: hidden;
+  } */
+  
+  /* .img-wrapper > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+  } */
+  
+  /* .img-wrapper > .content {
+    position: absolute;
+    inset: 0; */
+    /* font-size: 2rem; */
+    /* padding: 1rem;
+    background: rgba(85, 79, 79, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   */
+  /* .img-wrapper > img,
+  .img-wrapper > .content {
+    transition: 1500ms ease-in-out;
+  } */
+/* 
+  .img-wrapper > img,
+  .img-wrapper > .content {
+    transition: 1000ms ease-in;
+  }
+  .img-wrapper > img,
+  .img-wrapper > .content {
+    transition: 2000ms ease-out;
+  }
+
+  
+  .img-wrapper:hover > img.blur {
+    filter: blur(2px);
+  }
+  
+  .img-wrapper:hover > img.gray {
+    filter: grayscale(1);
+  }
+  
+  .img-wrapper:hover > img.zoom {
+    transform: scale(1.1);
+  }
+  
+  .img-wrapper > .content.fade {
+    opacity: 0;
+  }
+  .img-wrapper:hover > .content.fade {
+    opacity: 1;
+  }
+  
+  .img-wrapper > .content.slide-left {
+    transform: translateX(-100%);
+  }
+  .img-wrapper:hover > .content.slide-left {
+    transform: translateX(0);
+  }
+  
+  .img-wrapper > .content.slide-right {
+    transform: translateX(100%);
+  }
+  .img-wrapper:hover > .content.slide-right {
+    transform: translateX(0);
+  }
+  
+  .img-wrapper > .content.slide-down {
+    transform: translateY(-100%);
+  }
+  .img-wrapper:hover > .content.slide-down {
+    transform: translateY(0);
+  }
+  
+  .img-wrapper > .content.slide-up {
+    transform: translateY(100%);
+  }
+  .img-wrapper:hover > .content.slide-up {
+    transform: translateY(0);
+  } */

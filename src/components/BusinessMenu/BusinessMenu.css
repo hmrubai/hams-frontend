@@ -1,0 +1,9 @@
+.business-menu-section-bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+}
+.heading-color {
+  color: rgba(127, 198, 164, 1);
+}
