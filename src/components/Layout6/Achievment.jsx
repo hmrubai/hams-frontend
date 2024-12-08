@@ -42,7 +42,7 @@ const Achievment = () => {
                           <h3>
                             <CountUp
                               start={20}
-                              end={30}
+                              end={100}
                               duration={5}
                               decimal={4}
                               suffix="+"
@@ -50,22 +50,22 @@ const Achievment = () => {
                           </h3>
                         )}
 
-                        <p className="">Product List</p>
+                        <p className="">Products</p>
                       </div>
                       <div className="text-center white-clr p-2">
                         {counterOn && (
                           <h3>
                             <CountUp
                               start={10}
-                              end={40}
+                              end={120}
                               duration={5}
                               decimal={4}
-                              suffix="+"
+                              suffix="M+"
                             />
                           </h3>
                         )}
 
-                        <p className="">Product List</p>
+                        <p className="">Exports</p>
                       </div>
                     </div>
                   </div>
@@ -76,29 +76,29 @@ const Achievment = () => {
                         {counterOn && (
                           <h3 className="">
                             <CountUp
-                              start={40}
-                              end={80}
+                              start={5}
+                              end={50}
                               duration={5}
                               decimal={4}
                               suffix="+"
                             />
                           </h3>
                         )}
-                        <p className="">Positive Review</p>
+                        <p className="">Countries</p>
                       </div>
                       <div className="text-center white-clr p-2">
                         {counterOn && (
                           <h3 className="">
                             <CountUp
-                              start={60}
-                              end={100}
+                              start={1000}
+                              end={20000}
                               duration={5}
                               decimal={4}
                               suffix="+"
                             />
                           </h3>
                         )}
-                        <p className="">Award Winnings</p>
+                        <p className="">People</p>
                       </div>
                     </div>
                   </div>

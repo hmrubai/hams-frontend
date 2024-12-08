@@ -2,7 +2,7 @@ import React from "react";
 import BusinessCover from "../../assets/otherPageCover/ourBusiness.jpg";
 import KnittingUnit from "./KnittingUnit";
 import "./OurBusiness.css";
-import WorldMap from "../../assets/AllPhotoFinal/OurBusinessRoute/WORLDMAP.png";
+import WorldMap from "../../assets/AllPhotoFinal/OurBusinessRoute/World Map.png";
 import Bottoms from "../../assets/AllPhotoFinal/OurBusinessRoute/Bottoms.jpeg";
 import Hoodies from "../../assets/AllPhotoFinal/OurBusinessRoute/Hoodies.jpeg";
 import KidsWear from "../../assets/AllPhotoFinal/OurBusinessRoute/KidsWear.jpeg";

@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Modal } from "react-bootstrap";
-import SustainabilityCard from "../../../assets/AllPhotoFinal/HomeRoute/sustainabilityCard.jpeg";
+import SustainabilityCard1 from "../../../assets/AllPhotoFinal/HomeRoute/Su1.jpg";
+import SustainabilityCard2 from "../../../assets/AllPhotoFinal/HomeRoute/Su2.jpg";
+import SustainabilityCard3 from "../../../assets/AllPhotoFinal/HomeRoute/su3.jpg";
+import SustainabilityCard4 from "../../../assets/AllPhotoFinal/HomeRoute/su4.jpg";
+import SustainabilityCard5 from "../../../assets/AllPhotoFinal/HomeRoute/Su5.jpg";
+import SustainabilityCard6 from "../../../assets/AllPhotoFinal/HomeRoute/su6.jpg";
+
 const SingleSustainability = ({ sustainabilityStyle }) => {
   const { title, color, icon, id } = sustainabilityStyle;
   const [modalShow, setModalShow] = useState(false);
@@ -13,22 +19,22 @@ const SingleSustainability = ({ sustainabilityStyle }) => {
   const fetchModalContent = (id) => {
     switch (id) {
       case 1:
-        setModalImage(SustainabilityCard);
+        setModalImage(SustainabilityCard1);
         break;
       case 2:
-        setModalImage(SustainabilityCard);
+        setModalImage(SustainabilityCard2);
         break;
       case 3:
-        setModalImage(SustainabilityCard);
+        setModalImage(SustainabilityCard3);
         break;
       case 4:
-        setModalImage(SustainabilityCard);
+        setModalImage(SustainabilityCard4);
         break;
       case 5:
-        setModalImage(SustainabilityCard);
+        setModalImage(SustainabilityCard5);
         break;
       case 6:
-        setModalImage(SustainabilityCard);
+        setModalImage(SustainabilityCard6);
         break;
     }
   };
@@ -44,7 +50,7 @@ const SingleSustainability = ({ sustainabilityStyle }) => {
   return (
     <>
       <div
-        className="parent services-section mx-md-2 mx-lg-0 text-center my-3 zoom-effect"
+        className="parent services-section mx-md-2 mx-lg-0 text-center my-3 zoom-effect sus-text-center"
         style={{ background: `${color}` }}
         onClick={handleModalOpen}
       >

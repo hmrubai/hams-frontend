@@ -30,7 +30,7 @@ function Discover5() {
     {
       bg: `url(${Img2})`,
       gotTo: "products?tabProduct=service&discoverTab=productdevelopment",
-      header: "Products Development",
+      header: "Product Development",
       description:
         "Products Development Details Will be added later.Colorizing Details Will be added later.Colorizing Details Will be added later. Colorizing Details Will be added later.Colorizing Details Will be added later.",
     },
@@ -51,7 +51,7 @@ function Discover5() {
     {
       bg: `url(${Img5})`,
       gotTo: "products?tabProduct=service&discoverTab=chestprint",
-      header: "Chest Print",
+      header: "Placement Print",
       description:
         "At HAMS, our Placement Printing Section is a testament to our commitment to innovation and quality in garment printing. With a sprawling 36,000 sq. ft dedicated to this art, we stand at the forefront of the industry with a production capacity of 1,00,000 p ieces per day.",
     },
@@ -70,6 +70,13 @@ function Discover5() {
         "Dhaka Garments and Wash Limited is a prominent player in the readymade garment industry in Bangladesh, specializing in washing and Woven & Denim manufacturing services. ",
     },
     {
+      bg: `url(${Img10})`,
+      header: "Under Garments",
+      gotTo: "products?tabProduct=service&discoverTab=undergarments",
+      description:
+        "Under Garments Details Will be added later.ETP Details Will be added later.ETP Details Will be added later.ETP Details Will be added later.",
+    },
+    {
       bg: `url(${Img8})`,
       gotTo: "products?tabProduct=service&discoverTab=wash",
       header: "Wash",
@@ -82,13 +89,6 @@ function Discover5() {
       gotTo: "products?tabProduct=service&discoverTab=accreditation",
       description:
         "HAMS Group's Textile Lab have accreditations from various organizations for standards related to textile testing and quality assurance.",
-    },
-    {
-      bg: `url(${Img10})`,
-      header: "Under Garments",
-      gotTo: "products?tabProduct=service&discoverTab=undergarments",
-      description:
-        "Under Garments Details Will be added later.ETP Details Will be added later.ETP Details Will be added later.ETP Details Will be added later.",
     },
     {
       bg: `url(${Img10})`,
