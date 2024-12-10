@@ -8,10 +8,10 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import DhakaGarments from "../../../assets/AllPhotoFinal/FooterLogo/DhakaGL.png";
-import HamsFasion from "../../../assets/AllPhotoFinal/FooterLogo/hamsFeshion.png";
-import HamsGarments from "../../../assets/AllPhotoFinal/FooterLogo/HamsGl.png";
-import VectoriaGarments from "../../../assets/AllPhotoFinal/FooterLogo/vectoria.png";
+import DhakaGarments from "../../../assets/AllPhotoFinal/FooterLogo/DGWL.png";
+import HamsFasion from "../../../assets/AllPhotoFinal/FooterLogo/HFL.png";
+import HamsGarments from "../../../assets/AllPhotoFinal/FooterLogo/HGL.png";
+import VectoriaGarments from "../../../assets/AllPhotoFinal/FooterLogo/VIL.png";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";

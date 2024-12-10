@@ -9,7 +9,7 @@ import {
 } from "react-icons/bs";
 import { FaSquareTwitter } from "react-icons/fa6";
 import { Link, NavLink } from "react-router-dom";
-import companyLogo from "../../../assets/AllPhotoFinal/FooterLogo//HamsGl.png";
+import companyLogo from "../../../assets/AllPhotoFinal/FooterLogo//HGL.png";
 import line from "../../../assets/line.png";
 import navEmail from "../../../assets/navEmail.png";
 import navLocation from "../../../assets/navLocation.png";
