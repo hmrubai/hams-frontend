@@ -115,7 +115,10 @@
 .text-justify {
   text-align: justify;
 }
-
+.sus-text-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;}
 .bg-image {
   width: 100%;
   height: auto;

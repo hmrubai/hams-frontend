@@ -8,23 +8,24 @@ import SampleCarousel from "./SampleCarousel";
 import Slider1 from "../../../assets/HomeSlider/slider-1.jpg";
 import Slider6 from "../../../assets/HomeSlider/slider-6.jpg";
 import photo1 from "../../../assets/HomeSlider/TQM.png";
-import photo2 from "../../../assets/HomeSlider/victoria intimate.png";
-import photo3 from "../../../assets/HomeSlider/Dhaka-Garments-And-washing.png";
-import photo4 from "../../../assets/HomeSlider/HAMS.png";
-import photo5 from "../../../assets/HomeSlider/T-Shirt-Units.png";
-import photo6 from "../../../assets/HomeSlider/Dhaka-Garments-And-washing.png";
-import photo7 from "../../../assets/HomeSlider/knitting unit.png";
-import photo8 from "../../../assets/HomeSlider/Dyeing-Unit.png";
-import photo9 from "../../../assets/HomeSlider/The-Shanta-Pinnacle.png";
+import photo2 from "../../../assets/HomeSlider/vil.png";
+import photo3 from "../../../assets/HomeSlider/dgwl.png";
+import photo4 from "../../../assets/HomeSlider/hams.png";
+import photo5 from "../../../assets/HomeSlider/tshirt.png";
+import photo6 from "../../../assets/HomeSlider/inno.png";
+import photo7 from "../../../assets/HomeSlider/knitting.png";
+import photo8 from "../../../assets/HomeSlider/dyeing.png";
+import photo9 from "../../../assets/HomeSlider/shanta.png";
+import photo10 from "../../../assets/HomeSlider/hams fashion.png";
 
 const CardSlider = () => {
   const slides = [
     {
       id: 1,
-      image: photo1,
-      title: "TOTAL QUALITY MANAGEMENT TQM",
-      description: "10/15",
-      link: `/tqm`,
+      image: photo10,
+      title: "HAMS FASHION LTD",
+      description: "26+",
+      link: `/hamsFasion`,
     },
     {
       id: 2,
@@ -43,10 +44,11 @@ const CardSlider = () => {
     {
       id: 4,
       image: photo4,
-      title: "HAMS FASHION LTD",
+      title: "HAMS GARMENTS LTD",
       description: "14000+",
-      link: `/hamsFasion`,
+      link: `/hamsGarment`,
     },
+    
     {
       id: 5,
       image: photo5,
@@ -56,10 +58,10 @@ const CardSlider = () => {
     },
     {
       id: 6,
-      image: photo6,
-      title: "UNDER GARMENTS UNIT",
-      description: "26+",
-      link: `/underGarment`,
+      image: photo1,
+      title: "TOTAL QUALITY MANAGEMENT TQM",
+      description: "10/15",
+      link: `/tqm`,
     },
     {
       id: 7,

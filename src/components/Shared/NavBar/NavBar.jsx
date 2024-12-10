@@ -38,7 +38,7 @@ const NavBar = () => {
     setShowModal(false);
   };
 
-  const [backgroundColor, setBackgroundColor] = useState("");
+  const [backgroundColor, setBackgroundColor] = useState("rgba(0, 0, 0, 0.3)");
   const [isUpperNavVisible, setUpperNavVisible] = useState(true);
 
   useEffect(() => {
@@ -205,7 +205,7 @@ const NavBar = () => {
                   to="/sustainability"
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
                 >
-                  Sustainability
+                  Going Green
                 </NavLink>
                 <NavLink
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
@@ -225,12 +225,12 @@ const NavBar = () => {
                 >
                   Employee First
                 </NavLink>
-                <NavLink
+                {/**<NavLink
                   to="/contact"
                   className="text-color ms-2 text-decoration-none navbar-font"
                 >
                   Contact Us
-                </NavLink>
+                </NavLink>**/}
               </Nav>
 
               <Button
@@ -240,22 +240,13 @@ const NavBar = () => {
                 Virtual Tour
               </Button>
 
-              {token && user ? (
-                <Button
-                  onClick={() => {
-                    logout();
-                  }}
-                  className="nav-button border-0 mx-1 login-button my-3 my-lg-0 my-md-1"
-                >
-                  Logout
-                </Button>
-              ) : (
-                <Link to="/auth">
+              
+                <Link to="/contact">
                   <Button className="nav-button border-0 mx-1 login-button my-3 my-lg-0 my-md-1">
-                    Sign In
+                    Contact Us
                   </Button>
                 </Link>
-              )}
+            
             </Navbar.Collapse>
           </Container>
         </Navbar>
