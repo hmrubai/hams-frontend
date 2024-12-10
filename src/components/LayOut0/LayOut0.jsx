@@ -222,6 +222,7 @@ import OwnerMessageMobile from "./OwnerMessageMobile";
 import OurClient from "../LayOut0/OurClient";
 import ElevatingSection from "../LayOut0/ElevatingSection";
 import CustomerSection from "../LayOut0/CustomerSection";
+import OwnerNew from "./OwnerNew";
 
 const Layout0 = () => {
   const location = useLocation();
@@ -254,6 +255,9 @@ const Layout0 = () => {
       <ProcessSection />
       <div>{/* <OwnerMessage /> */}</div>
       {/* <OwnerMessageMobile /> */}
+
+      <OwnerNew />
+
       <div>
         <OurClient />
       </div>
