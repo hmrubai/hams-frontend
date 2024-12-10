@@ -15,6 +15,21 @@
   background-size: cover;
 }
 
+.secondary-heading {
+  font-size: 28px;
+  line-height: 21px;
+  border-bottom: 3px solid rgba(255, 97, 0, 1);
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.primary-heading {
+  font-size: 20px;
+  font-weight: 450;
+  color: #1d2f40;
+  margin-bottom: 1rem;
+}
+
+
 .hero-h-span {
   color: rgba(127, 198, 164, 1);
 }
@@ -98,10 +113,7 @@
   background-color: white;
 } */
 
-.accordion-button {
-  /* color: rgba(255, 97, 0, 1);  */
-  /* background-color: antiquewhite; */
-}
+
 
 /* .accordion-button:not(.collapsed)::after {
   color: blue !important;
@@ -186,7 +198,7 @@
 .bg-Image-Client {
   background-image: linear-gradient(
       to bottom,
-      rgba(29, 47, 64, 0.8),
+      rgba(54, 130, 145, 0.2),
       rgba(29, 47, 64, 0.8)
     ),
     url("../../assets/client.jpg");
@@ -235,8 +247,7 @@
 
 /* _________________________________________________ */
 
-.circle {
-}
+
 
 .quality-card-bg {
   background-color: rgba(101, 189, 147, 0.15);
