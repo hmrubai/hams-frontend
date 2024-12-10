@@ -7,16 +7,15 @@ const Product = () => {
   const { id } = useParams();
   const ProductDetailsRes = useGetProductDetailsQuery(id);
   const productDetails = ProductDetailsRes?.data?.data || [];
-  // console.log(productDetails);
+  console.log(productDetails);
   return (
     <div className="div-gradient-clr py-5">
       <div className="container pt-5">
         <div className="my-4">
-          <div className="d-flex row">
+          <div className="d-flex row mt-5">
             <div className="col-md-6">
               <img
                 className="w-100 blur"
-                style={{ width: "790px", height: "700px" }}
                 src={`${import.meta.env.VITE_IMAGE_URL}/${
                   productDetails?.image
                 }`}
@@ -30,20 +29,21 @@ const Product = () => {
                 <VscChromeMinimize className="fs-2 VscChromeMinimizeColor" />
                 OUR PRODUCT
               </h6>
-              <h4 className="Product-txt-color">PRODUCT NAME</h4>
+              <h4 className="Product-txt-color">{productDetails.title}</h4>
               <p className="product-p-color text-justify">
-                Small description : Lorem ipsum dolor sit amet consectetur.
-                Felis est habitasse nec gravida tincidunt et. Amet maecenas
-                fames sit diam adipiscing nibh id. Pellentesque duis non nunc
-                egestas aenean fringilla platea magna et. Nibh nunc diam blandit
-                risus dictum sem nibh eu.
+                Small description : Product description will coming soon
               </p>
               <h6 className="bold">
-                Delivery Date:
-                <span className="delivery-date-color"> 1 July 22</span>
+                Delivery Date:{" "}
+                <span className="delivery-date-color">
+                  Delivery date will coming soon
+                </span>
               </h6>
               <h6 className="bold">
-                Client:<span className="delivery-date-color">DIOR</span>
+                Client:{" "}
+                <span className="delivery-date-color">
+                  Client name will coming soon
+                </span>
               </h6>
             </div>
           </div>
@@ -56,22 +56,7 @@ const Product = () => {
                 Product overview
               </h5>
               <p className="productOver-p-color text-justify">
-                Lorem ipsum dolor sit amet consectetur. Urna maecenas sed massa
-                malesuada platea. Placerat ut posuere morbi eget ut. Enim id nec
-                fermentum aenean. Netus purus lorem porttitor id sit. Mauris
-                phasellus amet dui ultricies malesuada quis tortor senectus nec.
-                Sit tincidunt id ut venenatis vel nam. Convallis gravida
-                scelerisque vehicula facilisis lectus porttitor. Ac mauris
-                bibendum et nec. Condimentum eget turpis libero quis velit eros
-                euismod. Orci euismod mattis laoreet sagittis velit. Dignissim
-                faucibus quis pellentesque diam. Aliquet sit et ullamcorper
-                tortor pellentesque lorem donec. Risus nibh phasellus id
-                ultricies facilisi neque phasellus diam. Ullamcorper sapien
-                nulla facilisi consectetur. Risus urna volutpat et ut. Sodales
-                vitae sit elit ac. Enim libero eros nisi elit in sed.
-                Scelerisque quis adipiscing amet vitae felis scelerisque
-                sollicitudin. Volutpat gravida dictumst sit velit nunc vulputate
-                penatibus a nunc.
+                {productDetails.description}
               </p>
             </div>
           </div>
