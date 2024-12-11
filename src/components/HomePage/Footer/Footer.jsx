@@ -27,7 +27,7 @@ function Footer() {
       <Container className="">
         <Row className="justify-content-center">
           <Col md={3} className="text-center mb-md-0 d-none d-md-block">
-            <div className="d-flex flex-column align-items-center gap-2 mt-3">
+            <div className="d-flex flex-column align-items-center gap-4 mt-3">
               <Link to="/hamsGarment" className="">
                 <img
                   src={HamsGarments}

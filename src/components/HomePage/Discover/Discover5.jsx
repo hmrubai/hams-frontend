@@ -92,7 +92,7 @@ function Discover5() {
     },
     {
       bg: `url(${Img10})`,
-      header: "Effluent Treatment Plant(ETP)",
+      header: "Effluent Treatment Plant (ETP)",
       gotTo: "products?tabProduct=service&discoverTab=etp",
       description:
         "Effluent Treatment Plant Details Will be added later.ETP Details Will be added later.ETP Details Will be added later.ETP Details Will be added later.",

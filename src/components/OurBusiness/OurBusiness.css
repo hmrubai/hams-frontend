@@ -24,7 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.30); /* Optional: for better readability */
+  background-color: rgba(0, 0, 0, 0.25); /* Optional: for better readability */
   color: white; /* Change text color as needed */
   /* padding: 20px;  */
   box-sizing: border-box;
@@ -48,7 +48,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.30);
+  background-color: rgba(0, 0, 0, 0.25);
   color: white;
   /* padding: 5px; */
   box-sizing: border-box;

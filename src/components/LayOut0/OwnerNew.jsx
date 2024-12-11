@@ -4,6 +4,7 @@ import { SlSocialFacebook } from "react-icons/sl";
 import { FiLinkedin } from "react-icons/fi";
 import { PiInstagramLogoLight } from "react-icons/pi";
 import Owner3 from "../../assets/AllPhotoFinal/Director1.jpeg";
+import "../../../src/CommonStyles/CommonStyles.css";
 
 const DataTable = () => {
   const data = [
@@ -18,7 +19,7 @@ const DataTable = () => {
     },
     {
       id: 2,
-      name: "Shaifur Rahman Chowdhury",
+      name: "Shaifur Rahman",
       role: "Sr. Director",
       facebook: "https://www.facebook.com/",
       instagram: "https://www.instagram.com/",
@@ -37,8 +38,9 @@ const DataTable = () => {
   ];
 
   return (
-    <div className="container my-5">
-      {/* <h3 className="mb-4">User Management</h3> */}
+    <div className="container my-5 text-center">
+      <h6 class="secondary-heading">HAMS GROUP</h6>
+      <h6 class="primary-heading">Board Of Directors</h6>
       <Table responsive table table-hover>
         <thead className="">
           <tr>

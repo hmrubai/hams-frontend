@@ -13,7 +13,7 @@ const CustomerSection = () => {
       <div
         className=""
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(29, 47, 64, 0.5), rgba(29, 47, 64, 0.8)), url(${
+          backgroundImage: `linear-gradient(to bottom, rgba(175, 207, 126, 0.45), rgba(29, 47, 64, 0.8)), url(${
             import.meta.env.VITE_IMAGE_URL
           }/${commonRes?.data?.data?.banner})`,
           backgroundSize: "cover",

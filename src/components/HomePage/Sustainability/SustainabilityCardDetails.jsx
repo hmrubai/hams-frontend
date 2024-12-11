@@ -348,7 +348,7 @@ const SustainabilityCardDetails = () => {
         </p>
 
         <a
-          href="../../../../public//Document/SustainabilityDocument.pdf"
+          href="https://drive.google.com/file/d/1101THNZVfEFrgvQvCehQLfZxRJkaFqae/view?usp=sharing"
           download
           target="_blank"
           rel="noopener noreferrer"
