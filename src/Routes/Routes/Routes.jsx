@@ -76,6 +76,13 @@ import QualitySection from "../../components/LayOut0/QualitySection";
 import PhotoGallery from "../../components/NewsEvents/PhotoGallery";
 import OurClients from "../../components/HomePage/OurClients/OurClients";
 
+// =====================New route start =================
+const OurBusin = Loadable(
+  lazy(() => import("../../components/OurBusin/index"))
+);
+
+// =====================New route end ===================
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -279,6 +286,18 @@ const router = createBrowserRouter([
         path: "/buyer",
         element: <OurClients />,
       },
+      // ================== new route path start ===============
+
+      // == Our Business Route path start ==
+
+      {
+        path: "/our-business-route",
+        element: <OurBusin />,
+      },
+
+      // == Our Business Route path end ==
+
+      // ================== new route path end =================
     ],
   },
   {

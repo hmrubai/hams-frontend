@@ -189,12 +189,21 @@ const NavBar = () => {
                 >
                   About Us
                 </NavLink>
-                <NavLink
+                {/* <NavLink
                   to="/our-business"
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
                 >
                   Our Business
+                </NavLink> */}
+                {/* ======== Our Business route nav links start ==== */}
+                <NavLink
+                  to="/our-business-route"
+                  className="text-color ms-2 text-decoration-none hover-link navbar-font"
+                >
+                  Our Business
                 </NavLink>
+                {/* ======== Our Business route nav links end ==== */}
+
                 <NavLink
                   to="/products"
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
@@ -240,13 +249,11 @@ const NavBar = () => {
                 Virtual Tour
               </Button>
 
-              
-                <Link to="/contact">
-                  <Button className="nav-button border-0 mx-1 login-button my-3 my-lg-0 my-md-1">
-                    Contact Us
-                  </Button>
-                </Link>
-            
+              <Link to="/contact">
+                <Button className="nav-button border-0 mx-1 login-button my-3 my-lg-0 my-md-1">
+                  Contact Us
+                </Button>
+              </Link>
             </Navbar.Collapse>
           </Container>
         </Navbar>
