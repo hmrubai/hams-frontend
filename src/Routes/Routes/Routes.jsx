@@ -77,8 +77,14 @@ import PhotoGallery from "../../components/NewsEvents/PhotoGallery";
 import OurClients from "../../components/HomePage/OurClients/OurClients";
 
 // =====================New route start =================
+// Our Business routes file path start ==
 const OurBusin = Loadable(
   lazy(() => import("../../components/OurBusin/index"))
+);
+
+// Going Green file path start ==
+const GoingGreen = Loadable(
+  lazy(() => import("../../components/GoingGreen/Index"))
 );
 
 // =====================New route end ===================
@@ -291,11 +297,20 @@ const router = createBrowserRouter([
       // == Our Business Route path start ==
 
       {
-        path: "/our-business-route",
+        path: "/our-business",
         element: <OurBusin />,
       },
 
       // == Our Business Route path end ==
+
+      // == Going Green Route path start ==
+
+      {
+        path: "/going-green",
+        element: <GoingGreen />,
+      },
+
+      // == Going Green Route path end ==GoingGreen
 
       // ================== new route path end =================
     ],

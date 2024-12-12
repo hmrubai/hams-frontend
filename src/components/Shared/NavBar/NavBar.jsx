@@ -197,7 +197,7 @@ const NavBar = () => {
                 </NavLink> */}
                 {/* ======== Our Business route nav links start ==== */}
                 <NavLink
-                  to="/our-business-route"
+                  to="/our-business"
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
                 >
                   Our Business
@@ -210,12 +210,20 @@ const NavBar = () => {
                 >
                   Products & Services
                 </NavLink>
-                <NavLink
+                {/* <NavLink
                   to="/sustainability"
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
                 >
                   Going Green
+                </NavLink> */}
+                {/* ======== Going Green route nav links start ==== */}
+                <NavLink
+                  to="/going-green"
+                  className="text-color ms-2 text-decoration-none hover-link navbar-font"
+                >
+                  Going Green
                 </NavLink>
+                {/* ======== Going Green route nav links end ==== */}
                 <NavLink
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
                   to="/compliance-csr"
