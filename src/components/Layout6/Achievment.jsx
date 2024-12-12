@@ -60,7 +60,7 @@ const Achievment = () => {
                               end={120}
                               duration={5}
                               decimal={4}
-                              suffix="M+"
+                              suffix="M$+"
                             />
                           </h3>
                         )}
@@ -84,21 +84,21 @@ const Achievment = () => {
                             />
                           </h3>
                         )}
-                        <p className="">Countries</p>
+                        <p className="">Destination</p>
                       </div>
                       <div className="text-center white-clr p-2">
                         {counterOn && (
                           <h3 className="">
                             <CountUp
                               start={1000}
-                              end={20000}
+                              end={50000}
                               duration={5}
                               decimal={4}
                               suffix="+"
                             />
                           </h3>
                         )}
-                        <p className="">People</p>
+                        <p className="">Human Impact</p>
                       </div>
                     </div>
                   </div>
