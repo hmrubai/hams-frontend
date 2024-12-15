@@ -236,13 +236,22 @@ const NavBar = () => {
                 >
                   Impact Stories
                 </NavLink>
-                <NavLink
+                {/* <NavLink
                   to="employee-first"
                   className="text-color ms-2 text-decoration-none navbar-font"
                 >
                   Employee First
+                </NavLink> */}
+                {/* ======== Employee First route nav links start ==== */}
+                <NavLink
+                  to="/employee-first-route"
+                  className="text-color ms-2 text-decoration-none hover-link navbar-font"
+                >
+                  Employee First
                 </NavLink>
-                {/**<NavLink
+                {/* ======== Employee First route nav links end ==== */}
+
+                {/**<NavLink   
                   to="/contact"
                   className="text-color ms-2 text-decoration-none navbar-font"
                 >

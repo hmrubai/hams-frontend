@@ -87,6 +87,11 @@ const GoingGreen = Loadable(
   lazy(() => import("../../components/GoingGreen/Index"))
 );
 
+// Employee First  file path start ==
+const EmployeeFirst = Loadable(
+  lazy(() => import("../../components/EmployeeFirst/index"))
+);
+
 // =====================New route end ===================
 
 const router = createBrowserRouter([
@@ -116,10 +121,10 @@ const router = createBrowserRouter([
         path: "/product-details/:id",
         element: <Layout7 />,
       },
-      {
-        path: "/our-business",
-        element: <OurBusiness />,
-      },
+      // {
+      //   path: "/our-business",
+      //   element: <OurBusiness />,
+      // },
       {
         path: "/employee-first",
         element: <CertificationDetails />,
@@ -310,7 +315,16 @@ const router = createBrowserRouter([
         element: <GoingGreen />,
       },
 
-      // == Going Green Route path end ==GoingGreen
+      // == Going Green Route path end ==
+
+      // == Employee First Route path start ==
+
+      {
+        path: "/employee-first-route",
+        element: <EmployeeFirst />,
+      },
+
+      // == Employee First Route path end ==
 
       // ================== new route path end =================
     ],

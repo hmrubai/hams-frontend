@@ -1,0 +1,29 @@
+.brand-color {
+  background-color: rgba(255, 97, 0, 1);
+}
+
+.photo-text-position-employee {
+  position: relative;
+  display: inline-block;
+}
+
+.photo-text-overlay-employee {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  text-align: start;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.text-justify {
+  text-align: justify;
+}
