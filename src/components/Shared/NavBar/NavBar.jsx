@@ -224,12 +224,20 @@ const NavBar = () => {
                   Going Green
                 </NavLink>
                 {/* ======== Going Green route nav links end ==== */}
-                <NavLink
+                {/* <NavLink
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
                   to="/compliance-csr"
                 >
                   Complience & CSR
+                </NavLink> */}
+                {/* ======== Compliance & CSR route nav links start ==== */}
+                <NavLink
+                  className="text-color ms-2 text-decoration-none hover-link navbar-font"
+                  to="/compliance-csr-route"
+                >
+                  Compliance & CSR
                 </NavLink>
+                {/* ======== Compliance & CSR route nav links end ==== */}
                 <NavLink
                   to="impact-stories"
                   className="text-color text-decoration-none navbar-font ms-2"

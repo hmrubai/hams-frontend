@@ -92,6 +92,11 @@ const EmployeeFirst = Loadable(
   lazy(() => import("../../components/EmployeeFirst/index"))
 );
 
+//Compliance & CSR file path start ==
+const ComplianceCSR = Loadable(
+  lazy(() => import("../../components/ComplianceCSR/index"))
+);
+
 // =====================New route end ===================
 
 const router = createBrowserRouter([
@@ -325,6 +330,13 @@ const router = createBrowserRouter([
       },
 
       // == Employee First Route path end ==
+
+      // Compliance & CSR Route path star ==
+      {
+        path: "/compliance-csr-route",
+        element: <ComplianceCSR />,
+      },
+      // Compliance & CSR Route path end ===
 
       // ================== new route path end =================
     ],
