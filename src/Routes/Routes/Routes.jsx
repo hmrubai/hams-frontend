@@ -97,6 +97,11 @@ const ComplianceCSR = Loadable(
   lazy(() => import("../../components/ComplianceCSR/index"))
 );
 
+//Impact Store file path start ==
+const ImpactStore = Loadable(
+  lazy(() => import("../../components/ImpactStore/index"))
+);
+
 // =====================New route end ===================
 
 const router = createBrowserRouter([
@@ -337,6 +342,13 @@ const router = createBrowserRouter([
         element: <ComplianceCSR />,
       },
       // Compliance & CSR Route path end ===
+
+      //Impact Stories Route path star ==
+      {
+        path: "/impact-stories-route",
+        element: <ImpactStore />,
+      },
+      //Impact Stories Route path end ==
 
       // ================== new route path end =================
     ],

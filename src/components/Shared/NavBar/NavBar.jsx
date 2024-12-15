@@ -238,12 +238,21 @@ const NavBar = () => {
                   Compliance & CSR
                 </NavLink>
                 {/* ======== Compliance & CSR route nav links end ==== */}
-                <NavLink
+                {/* <NavLink
                   to="impact-stories"
                   className="text-color text-decoration-none navbar-font ms-2"
                 >
                   Impact Stories
+                </NavLink> */}
+                {/* ======== Impact Stories route nav links start ==== */}
+                <NavLink
+                  to="impact-stories-route"
+                  className="text-color text-decoration-none navbar-font ms-2"
+                >
+                  Impact Stories
                 </NavLink>
+                {/* ======== Impact Stories route nav links end ==== */}
+
                 {/* <NavLink
                   to="employee-first"
                   className="text-color ms-2 text-decoration-none navbar-font"
