@@ -183,6 +183,19 @@ const NavBar = () => {
                 >
                   Home
                 </NavLink>
+
+                {/* Home page route nav links start ===  */}
+                <NavLink
+                  to="/home-page-route"
+                  className={({ isActive }) =>
+                    (isActive ? "active " : "") +
+                    "text-color ms-2 text-decoration-none hover-link navbar-font"
+                  }
+                >
+                  New Home
+                </NavLink>
+                {/* Home page route nav links end ===  */}
+
                 <NavLink
                   to="/about"
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"

@@ -1,0 +1,263 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-button {
+  background-color: rgba(255, 97, 0, 1) !important;
+  border-radius: 0px !important;
+}
+
+.swiper-button-prev {
+  transition: transform 0.4s ease;
+}
+
+.swiper-button-prev:hover {
+  transform: scale(0.5);
+}
+
+.swiper-button-next {
+  transition: transform 0.4s ease;
+}
+
+.swiper-button-next:hover {
+  transform: scale(0.5);
+}
+
+:root {
+  --swiper-theme-color: #050607;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: antiquewhite;
+}
+
+.image-margin {
+  margin-top: 10px;
+  margin-left: 80px;
+}
+
+.swiper-heading1 {
+  font-family: "Cabin", sans-serif;
+  font-size: 44px;
+  color: whitesmoke;
+}
+
+.swiper-heading2 {
+  font-family: "Cabin", sans-serif;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+@media (min-width: 200px) and (max-width: 991px) {
+  .image-margin {
+    margin-top: 60px;
+    margin-left: 120px;
+  }
+
+  .custom-height3 {
+    height: 72vh;
+  }
+  .swiper-heading1 {
+    font-family: "Cabin", sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+  }
+  .swiper-heading2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1368px) {
+  .custom-height1 {
+    height: 75vh;
+  }
+
+  .swiper-heading1 {
+    font-family: "Cabin", sans-serif;
+    font-size: 35px;
+    color: whitesmoke;
+  }
+
+  .swiper-heading2 {
+    font-family: "Cabin", sans-serif;
+    font-size: 14px;
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 1369px) {
+  .custom-height1 {
+    height: 78vh;
+  }
+
+  .swiper-heading1 {
+    font-size: 35px;
+    color: whitesmoke;
+  }
+
+  .swiper-heading2 {
+    font-size: 14px;
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 1724px) {
+  .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 95%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 90%);
+    right: auto;
+    top: var(--swiper-navigation-top-offset, 95%);
+  }
+}
+
+@media (max-width: 1700px) and (min-width: 1150px) {
+  .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 95%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 85%);
+    right: auto;
+    top: var(--swiper-navigation-top-offset, 95%);
+  }
+}
+
+@media (max-width: 1149px) and (min-width: 850px) {
+  .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 95%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 80%);
+    right: auto;
+    top: var(--swiper-navigation-top-offset, 95%);
+  }
+}
+
+@media (max-width: 849px) and (min-width: 668px) {
+  .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 90%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 75%);
+    right: auto;
+    top: var(--swiper-navigation-top-offset, 90%);
+  }
+}
+
+@media (max-width: 670px) and (min-width: 562px) {
+  .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 88%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 70%);
+    right: auto;
+    top: var(--swiper-navigation-top-offset, 88%);
+  }
+}
+
+@media (max-width: 561px) and (min-width: 480px) {
+  .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 88%);
+    right: var(--swiper-navigation-sides-offset, -10%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 75%);
+    right: auto;
+    top: var(--swiper-navigation-top-offset, 88%);
+  }
+}
+
+@media (max-width: 479px) {
+  .swiper-button-next {
+    top: var(--swiper-navigation-top-offset, 88%);
+    right: var(--swiper-navigation-sides-offset, -18%);
+  }
+
+  .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 78%);
+    right: auto;
+    top: var(--swiper-navigation-top-offset, 88%);
+  }
+}
+
+@media (max-width: 767px) {
+}
+
+.swiper-button-prev {
+  background-image: url("../../../assets/AllAssets/HomePage/sliderIcon/privious.png") !important;
+  background-repeat: no-repeat;
+  padding: 32px;
+}
+
+.swiper-button-next {
+  background-image: url("../../../assets/AllAssets/HomePage/sliderIcon/next.png") !important;
+  background-repeat: no-repeat;
+  padding: 32px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "";
+  display: none;
+}
+
+/* General responsive image styling */
+.responsive-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide the image on all mobile devices in landscape mode */
+@media only screen and (max-height: 450px) and (orientation: landscape) {
+  .hide-on-landscape {
+    display: none !important;
+  }
+}
+
+/* Center and scale image for mobile portrait mode */
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  .responsive-img {
+    max-width: 70%;
+  }
+}
+
+/* Adjust image scaling for smaller devices */
+@media only screen and (max-width: 480px) {
+  .responsive-img {
+    max-width: 80%;
+  }
+}
+
+/* Larger iPhones and medium mobile devices */
+@media only screen and (min-width: 481px) and (max-width: 812px) {
+  .responsive-img {
+    max-width: 70%;
+  }
+}
+
+/* Ensure image hides properly on iPhone 12 Pro Max and similar devices */
+@media only screen and (max-width: 932px) and (orientation: landscape) {
+  .hide-on-landscape {
+    display: none !important;
+  }
+}
+
+/* Default desktop styling */
+@media only screen and (min-width: 1025px) {
+  .responsive-img {
+    max-width: 90%;
+  }
+}

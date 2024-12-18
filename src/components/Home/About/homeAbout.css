@@ -1,0 +1,15 @@
+.about-button {
+  background-color: rgba(255, 97, 0, 1) !important;
+  border-radius: 0 !important;
+  margin-top: -5px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.experience-year {
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+}

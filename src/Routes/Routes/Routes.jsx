@@ -102,7 +102,75 @@ const ImpactStore = Loadable(
   lazy(() => import("../../components/ImpactStore/index"))
 );
 
+//Home Page file path start ==
+const HomePage = Loadable(lazy(() => import("../../components/Home/index")));
+
 // =====================New route end ===================
+
+// Company name wise start file path =======
+
+//HAMS Fashion LTD file path ==
+const HAMSfashionLtd = Loadable(
+  lazy(() =>
+    import("../../components/Home/OtherCompany/CompanyPage/HamsFasionLTD")
+  )
+);
+
+//Victoria Intimate LTD file path ==
+const VictoriaIntimateLtd = Loadable(
+  lazy(() =>
+    import("../../components/Home/OtherCompany/CompanyPage/VictoriaIntimateLTD")
+  )
+);
+
+//Dhaka Garment & Wash Ltd file path ==
+const DhakaGarmentWashLtd = Loadable(
+  lazy(() =>
+    import("../../components/Home/OtherCompany/CompanyPage/DhakaGarmentWashLtd")
+  )
+);
+
+//Hams Garment Ltd file path ==
+const HamsGarmentLtd = Loadable(
+  lazy(() =>
+    import("../../components/Home/OtherCompany/CompanyPage/HamsGarmentLtd")
+  )
+);
+
+//Garment T-Shirt Ltd file path ==
+const GarmentTShirtLtd = Loadable(
+  lazy(() =>
+    import("../../components/Home/OtherCompany/CompanyPage/GarmentTShirt")
+  )
+);
+
+// TQM LTD file path ==
+const TQMLTD = Loadable(
+  lazy(() => import("../../components/Home/OtherCompany/CompanyPage/TQM"))
+);
+
+//Knitting Unit file path ==
+const KnittingUnit = Loadable(
+  lazy(() =>
+    import("../../components/Home/OtherCompany/CompanyPage/KnittingUnit")
+  )
+);
+
+//Dyeing Unit file path ==
+const DyeingUnit = Loadable(
+  lazy(() =>
+    import("../../components/Home/OtherCompany/CompanyPage/DyeingUnit")
+  )
+);
+
+//Shanta LTD file path ==
+const ShantaUnit = Loadable(
+  lazy(() =>
+    import("../../components/Home/OtherCompany/CompanyPage/ShantaUnit")
+  )
+);
+
+// Company name wise routes end file path =========
 
 const router = createBrowserRouter([
   {
@@ -350,7 +418,64 @@ const router = createBrowserRouter([
       },
       //Impact Stories Route path end ==
 
+      //Home page Route path star ==
+      {
+        path: "/home-page-route",
+        element: <HomePage />,
+      },
+
+      //Home page Route path end ==
+
       // ================== new route path end =================
+      //Company Name Route path start ==
+
+      //HAMS Fasion LTD
+      {
+        path: "/hams-fashion-ltd",
+        element: <HAMSfashionLtd />,
+      },
+      //Victoria Intimate Ltd
+      {
+        path: "/victoria-intimate-ltd",
+        element: <VictoriaIntimateLtd />,
+      },
+      //Dhaka Garment & Wash Ltd path start ==
+      {
+        path: "/dhaka-garment-wash-ltd",
+        element: <DhakaGarmentWashLtd />,
+      },
+      //Hams Garment Ltd path start ==
+      {
+        path: "/hams-garment-ltd",
+        element: <HamsGarmentLtd />,
+      },
+      //Garment T-Shirt Ltd path start ==
+      {
+        path: "/garment-shirt-ltd",
+        element: <GarmentTShirtLtd />,
+      },
+      //TQM Path start ==
+      {
+        path: "/tqm-ltd",
+        element: <TQMLTD />,
+      },
+      //Knitting Unit Path start ==
+      {
+        path: "/knitting-unit",
+        element: <KnittingUnit />,
+      },
+      //Dyeing Unit Path start ==
+      {
+        path: "/dyeing-unit",
+        element: <DyeingUnit />,
+      },
+      //Shanta Unit Path start ==
+      {
+        path: "/shanta-unit",
+        element: <ShantaUnit />,
+      },
+
+      //Company Name Route path end ==
     ],
   },
   {

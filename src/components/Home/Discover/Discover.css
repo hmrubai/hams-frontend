@@ -1,0 +1,75 @@
+.discover-font {
+  font-size: 20px;
+}
+
+.main-banner2 {
+}
+.discover ul {
+  list-style: none;
+  padding: 0px;
+  margin-left: 40px;
+  position: relative;
+}
+
+.discover ul li {
+  position: relative;
+  padding: 8px;
+}
+
+.discover ul li::before {
+  content: "";
+  position: absolute;
+  left: -3px;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #ccc;
+  transition: background-color 0.3s ease;
+}
+
+.discover ul li.active::before {
+  background-color: #ff0000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.banner-content {
+}
+.content-padding {
+  padding: 50px 0px;
+}
+
+.sidebar {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media (min-width: 1367px) {
+  .discover-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .bottom-section {
+    background-color: #7fc6a4;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  .discover-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: black;
+  }
+  .bottom-section {
+  }
+}
+@media (max-width: 767px) {
+  .bottom-section {
+    background-color: #7fc6a4;
+    margin-left: 3px;
+  }
+}
