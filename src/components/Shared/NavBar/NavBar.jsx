@@ -183,7 +183,6 @@ const NavBar = () => {
                 >
                   Home
                 </NavLink> */}
-
                 {/* Home page route nav links start ===  */}
                 <NavLink
                   to="/home-page-route"
@@ -195,13 +194,20 @@ const NavBar = () => {
                   Home
                 </NavLink>
                 {/* Home page route nav links end ===  */}
-
-                <NavLink
+                {/* <NavLink
                   to="/about"
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
                 >
                   About Us
+                </NavLink> */}
+                {/* About us page route nav links start ===  */}
+                <NavLink
+                  to="/about-route"
+                  className="text-color ms-2 text-decoration-none hover-link navbar-font"
+                >
+                  About Us
                 </NavLink>
+                {/* About us page route nav links end ===  */}
                 {/* <NavLink
                   to="/our-business"
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
@@ -216,7 +222,6 @@ const NavBar = () => {
                   Our Business
                 </NavLink>
                 {/* ======== Our Business route nav links end ==== */}
-
                 <NavLink
                   to="/products"
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
@@ -265,7 +270,6 @@ const NavBar = () => {
                   Impact Stories
                 </NavLink>
                 {/* ======== Impact Stories route nav links end ==== */}
-
                 {/* <NavLink
                   to="employee-first"
                   className="text-color ms-2 text-decoration-none navbar-font"
@@ -280,7 +284,6 @@ const NavBar = () => {
                   Employee First
                 </NavLink>
                 {/* ======== Employee First route nav links end ==== */}
-
                 {/**<NavLink   
                   to="/contact"
                   className="text-color ms-2 text-decoration-none navbar-font"

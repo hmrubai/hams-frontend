@@ -105,6 +105,9 @@ const ImpactStore = Loadable(
 //Home Page file path start ==
 const HomePage = Loadable(lazy(() => import("../../components/Home/index")));
 
+//About Us file path start ==
+const AboutUs = Loadable(lazy(() => import("../../components/About/index")));
+
 // =====================New route end ===================
 
 // Company name wise start file path =======
@@ -425,6 +428,14 @@ const router = createBrowserRouter([
       },
 
       //Home page Route path end ==
+
+      //About Us Route path star ==
+      {
+        path: "/about-route",
+        element: <AboutUs />,
+      },
+
+      //About Us page Route path end ==
 
       // ================== new route path end =================
       //Company Name Route path start ==
