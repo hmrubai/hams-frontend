@@ -174,7 +174,7 @@ const NavBar = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="container-fluid d-flex justify-content-lg-center justify-content-sm-start">
-                <NavLink
+                {/* <NavLink
                   to="/"
                   className={({ isActive }) =>
                     (isActive ? "active " : "") +
@@ -182,7 +182,7 @@ const NavBar = () => {
                   }
                 >
                   Home
-                </NavLink>
+                </NavLink> */}
 
                 {/* Home page route nav links start ===  */}
                 <NavLink
@@ -192,7 +192,7 @@ const NavBar = () => {
                     "text-color ms-2 text-decoration-none hover-link navbar-font"
                   }
                 >
-                  New Home
+                  Home
                 </NavLink>
                 {/* Home page route nav links end ===  */}
 

@@ -1,0 +1,12 @@
+.virtual-walkthrough-bg-image {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(175, 207, 126, 0.45),
+      rgba(29, 47, 64, 0.4)
+    ),
+    url("../../../assets/AllAssets/HomePage/exploreHAMS/virtual.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 75vh;
+}

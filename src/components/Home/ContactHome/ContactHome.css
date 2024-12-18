@@ -1,0 +1,40 @@
+.contact-section-bg-image {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(175, 207, 126, 0.45),
+    rgba(29, 47, 64, 0.8)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.white-placeholder::placeholder {
+  color: white;
+}
+
+.email-us {
+  border-radius: 6px;
+}
+.phone-us {
+  border-radius: 6px;
+}
+.contact-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.bg-transparent {
+  border-color: #7fc6a4 !important;
+}
+
+.bg-transparent::placeholder {
+  color: white !important;
+  font-size: 12px;
+}
+.contact-button {
+  border-radius: 0px !important;
+}
+.border-custom {
+  border-color: rgba(255, 97, 0, 1) !important;
+}
