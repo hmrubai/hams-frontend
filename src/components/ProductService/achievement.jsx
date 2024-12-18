@@ -11,7 +11,7 @@ const achievment = () => {
       onEnter={() => setCounterOn(true)}
       onExit={() => setCounterOn(false)}
     >
-      <div className="achievement-bg pt-5 mt-5 mt-2">
+      <div id="achievement" className="achievement-bg pt-5 mt-5 mt-2">
         <div className="container">
           <div className="p-5">
             <div className="container mx-auto">

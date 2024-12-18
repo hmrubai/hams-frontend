@@ -54,15 +54,15 @@ const DesignStudio = () => {
                 src={DigitalDesign}
                 alt=""
                 className="img-fluid rounded"
-                style={{ width: "1200px", height: "200px" }}
+                style={{ width: "1200px", height: "300px" }}
               />
             </div>
           </div>
           <div className="ms-0 mt-3 mt-md-0 ms-md-5 me-1 justify-items-center align-content-center text-justify">
-            <p style={{ fontSize: "18px" }} className="fw-bolder">
+            <p style={{ fontSize: "18px" }} className="fw-bolder mx-2 mx-md-0">
               Fit and Pattern Adjustments
             </p>
-            <p className="my-3 me-2" style={{ fontSize: "14px" }}>
+            <p className="my-3 mx-2 mx-md-0" style={{ fontSize: "14px" }}>
               Designers can make real-time adjustments to the fit and pattern of
               the garment within the 3D environment. This enables them to
               fine-tune details such as sizing, proportions, and seam

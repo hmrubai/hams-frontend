@@ -77,7 +77,7 @@ const AnyQueries = () => {
             <Link
               type="button"
               className="btn  fw-bold"
-              to="/contactUs"
+              to="/contact"
               style={{
                 background: "rgba(255, 97, 0, 1)",
                 color: "rgba(255, 255, 255, 1)",

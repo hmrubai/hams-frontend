@@ -1,9 +1,9 @@
 import React, { Children, Suspense, lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layout/Main";
-const Home = Loadable(
-  lazy(() => import("../../components/HomePage/Home/Home"))
-);
+// const Home = Loadable(
+//   lazy(() => import("../../components/HomePage/Home/Home"))
+// );
 const Layout0 = Loadable(
   lazy(() => import("../../components/LayOut0/LayOut0"))
 );
@@ -11,21 +11,21 @@ const CSR = Loadable(lazy(() => import("../../components/CSR/CSR")));
 const CompanyMenu = Loadable(
   lazy(() => import("../../components/CompanyMenu/CompanyMenu/CompanyMenu"))
 );
-const NewsEvents = Loadable(
-  lazy(() => import("../../components/NewsEvents/NewsPhotoTab"))
-);
+// const NewsEvents = Loadable(
+//   lazy(() => import("../../components/NewsEvents/NewsPhotoTab"))
+// );
 const ServicesMenu = Loadable(
   lazy(() => import("../../components/ServicesMenu/ServicesMenu"))
 );
 const Login = Loadable(lazy(() => import("../../components/Login/Login")));
-const OurBusiness = Loadable(
-  lazy(() => import("../../components/OurBusiness/OurBusiness"))
-);
+// const OurBusiness = Loadable(
+//   lazy(() => import("../../components/OurBusiness/OurBusiness"))
+// );
 const Contact = Loadable(
   lazy(() => import("../../components/ContactDetails/Contact"))
 );
 import BusinessMenu from "../../components/BusinessMenu/BusinessMenu";
-import CertificationDetails from "../../components/CertificationDetails/CertificationDetails";
+// import CertificationDetails from "../../components/CertificationDetails/CertificationDetails";
 import SpecificNews from "../../components/NewsEvents/Specificnews/SpecificNews";
 import { Layout } from "../../components/Layout6/Layout";
 import Layout7 from "../../components/Layout7/Layout7";
@@ -39,11 +39,11 @@ import Loadable from "../../Loader/Loadable";
 import AchievementLink from "../../components/HomePage/AchievementLink/AchievementLink";
 import ProductList from "../../components/Layout6/Products";
 import Products from "../../components/Layout6/Products";
-import SustainabilityCardDetails from "../../components/HomePage/Sustainability/SustainabilityCardDetails";
+// import SustainabilityCardDetails from "../../components/HomePage/Sustainability/SustainabilityCardDetails";
 import ScrollToTop from "../../hooks/useScrollToTop";
 import Signup from "../../components/Login/Signup";
 import Auth from "../../components/Login/Auth";
-import UpdatedCC from "../../components/CSR/UpdatedCC";
+// import UpdatedCC from "../../components/CSR/UpdatedCC";
 import TQM from "../../components/HomePage/CardSlider/CardLink/TQM";
 import Victoria from "../../components/HomePage/CardSlider/CardLink/Victoria";
 import HamsGarment from "../../components/HomePage/CardSlider/CardLink/HamsGarment";
@@ -190,18 +190,18 @@ const router = createBrowserRouter([
       </>
     ),
     children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
+      // {
+      //   path: "/",
+      //   element: <Home />,
+      // },
       {
         path: "/learn-more",
         element: <LearnMore />,
       },
-      {
-        path: "/about",
-        element: <Layout0 />,
-      },
+      // {
+      //   path: "/about",
+      //   element: <Layout0 />,
+      // },
 
       {
         path: "/product-details/:id",
@@ -211,10 +211,10 @@ const router = createBrowserRouter([
       //   path: "/our-business",
       //   element: <OurBusiness />,
       // },
-      {
-        path: "/employee-first",
-        element: <CertificationDetails />,
-      },
+      // {
+      //   path: "/employee-first",
+      //   element: <CertificationDetails />,
+      // },
       {
         path: "/products",
         element: <Layout />,
@@ -223,10 +223,10 @@ const router = createBrowserRouter([
         path: "/products/:id",
         element: <Layout />,
       },
-      {
-        path: "/impact-stories",
-        element: <NewsEvents />,
-      },
+      // {
+      //   path: "/impact-stories",
+      //   element: <NewsEvents />,
+      // },
       {
         path: "/single-news",
         element: <SpecificNews />,
@@ -247,10 +247,10 @@ const router = createBrowserRouter([
         path: "/learn-more-6",
         element: <LearnMore6 />,
       },
-      {
-        path: "/compliance-csr",
-        element: <UpdatedCC />,
-      },
+      // {
+      //   path: "/compliance-csr",
+      //   element: <UpdatedCC />,
+      // },
       {
         path: "/achieveLink",
         element: <AchievementLink />,
@@ -271,10 +271,10 @@ const router = createBrowserRouter([
         path: "/product-list/:id",
         element: <CategoryWiseProducts></CategoryWiseProducts>,
       },
-      {
-        path: "/sustainability",
-        element: <SustainabilityCardDetails />,
-      },
+      // {
+      //   path: "/sustainability",
+      //   element: <SustainabilityCardDetails />,
+      // },
       {
         path: "/contact",
         element: <Contact />,
@@ -406,7 +406,7 @@ const router = createBrowserRouter([
       // == Employee First Route path start ==
 
       {
-        path: "/employee-first-route",
+        path: "/employee-first",
         element: <EmployeeFirst />,
       },
 
@@ -414,21 +414,21 @@ const router = createBrowserRouter([
 
       // Compliance & CSR Route path star ==
       {
-        path: "/compliance-csr-route",
+        path: "/compliance-csr",
         element: <ComplianceCSR />,
       },
       // Compliance & CSR Route path end ===
 
       //Impact Stories Route path star ==
       {
-        path: "/impact-stories-route",
+        path: "/impact-stories",
         element: <ImpactStore />,
       },
       //Impact Stories Route path end ==
 
       //Home page Route path star ==
       {
-        path: "/home-page-route",
+        path: "/",
         element: <HomePage />,
       },
 
@@ -436,7 +436,7 @@ const router = createBrowserRouter([
 
       //About Us Route path star ==
       {
-        path: "/about-route",
+        path: "/about-us",
         element: <AboutUs />,
       },
 

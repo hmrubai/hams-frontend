@@ -28,7 +28,7 @@ function Footer() {
         <Row className="justify-content-center">
           <Col md={3} className="text-center mb-md-0 d-none d-md-block">
             <div className="d-flex flex-column align-items-center gap-4 mt-3">
-              <Link to="/hamsGarment" className="">
+              <Link to="/hams-garment-ltd">
                 <img
                   src={HamsGarments}
                   alt="About Us"
@@ -36,21 +36,21 @@ function Footer() {
                 />
               </Link>
 
-              <Link to="/victoriaIntimate">
+              <Link to="/victoria-intimate-ltd">
                 <img
                   src={VectoriaGarments}
                   alt="About Us"
                   className="img-fluid h-50 w-50"
                 />
               </Link>
-              <Link to="/dhakaGarment">
+              <Link to="/dhaka-garment-wash-ltd">
                 <img
                   src={DhakaGarments}
                   alt="About Us"
                   className="img-fluid h-50 w-50"
                 />
               </Link>
-              <Link to="/hamsFasion">
+              <Link to="/hams-fashion-ltd">
                 <img
                   src={HamsFasion}
                   alt="About Us"
@@ -64,7 +64,7 @@ function Footer() {
             <div className="d-flex flex-column align-items-center gap-2">
               <Row className="w-100">
                 <Col xs={6} className="d-flex justify-content-center">
-                  <a href="/hamsGarment">
+                  <a href="/hams-garment-ltd">
                     <img
                       src={HamsGarments}
                       alt="About Us"
@@ -73,7 +73,7 @@ function Footer() {
                   </a>
                 </Col>
                 <Col xs={6} className="d-flex justify-content-center">
-                  <a href="/victoriaIntimate">
+                  <a href="/victoria-intimate-ltd">
                     <img
                       src={VectoriaGarments}
                       alt="About Us"
@@ -84,7 +84,7 @@ function Footer() {
               </Row>
               <Row className="w-100">
                 <Col xs={6} className="d-flex justify-content-center">
-                  <a href="/dhakaGarment">
+                  <a href="/dhaka-garment-wash-ltd">
                     <img
                       src={DhakaGarments}
                       alt="About Us"
@@ -93,7 +93,7 @@ function Footer() {
                   </a>
                 </Col>
                 <Col xs={6} className="d-flex justify-content-center">
-                  <a href="/hamsFasion">
+                  <a href="/hams-fashion-ltd">
                     <img
                       src={HamsFasion}
                       alt="About Us"
@@ -165,7 +165,7 @@ function Footer() {
               <h5 className="using-title-font">Quick Links</h5>
 
               <Link
-                to="/about#we-are-section"
+                to="/about-us#we-are-section"
                 className="text-black fw-bold"
                 style={{ textDecoration: "underline" }}
               >
@@ -181,7 +181,7 @@ function Footer() {
               </Link>
 
               <Link
-                to="/sustainability"
+                to="/going-green"
                 className="text-black fw-bold"
                 style={{ textDecoration: "underline" }}
               >
@@ -217,16 +217,16 @@ function Footer() {
           <Col md={2} className="text-center mb-md-0 d-none d-md-block">
             <div className="d-flex flex-column align-items-start gap-2">
               <h5 className="my-3"></h5>
-              <Link
+              {/* <Link
                 to="/"
                 className="text-black fw-bold"
                 style={{ textDecoration: "underline" }}
               >
                 Policy
-              </Link>
+              </Link> */}
 
               <Link
-                to="/about#client"
+                to="/about-us#client"
                 className="text-black fw-bold"
                 style={{ textDecoration: "underline" }}
               >
@@ -234,14 +234,14 @@ function Footer() {
               </Link>
 
               <Link
-                to="/about#certifications"
+                to="/about-us#certifications"
                 className="text-black fw-bold"
                 style={{ textDecoration: "underline" }}
               >
                 Certificates
               </Link>
               <Link
-                to="/achievement"
+                to="/products#achievement"
                 className="text-black fw-bold"
                 style={{ textDecoration: "underline" }}
               >
@@ -263,12 +263,13 @@ function Footer() {
               </Link>
 
               <Link
-                to="/about#owner"
+                to="/about-us#directors"
                 state={{ scrollToDiv: true }}
                 className="text-black fw-bold"
                 style={{ textDecoration: "underline" }}
               >
-                Messages
+                {/* Messages */}
+                Board Of Directors
               </Link>
             </div>
           </Col>
@@ -280,14 +281,14 @@ function Footer() {
               <div className="d-flex flex-column justify-content-center align-items-center gap-2">
                 <div className="d-flex flex-rows gap-2">
                   <Link
-                    href="/about#we-are-section"
+                    href="/about-us#we-are-section"
                     className="text-black mb-2 fw-bold"
                     style={{ textDecoration: "underline" }}
                   >
                     About Us
                   </Link>
                   <Link
-                    to="/ourBusiness"
+                    to="/our-business"
                     className="text-black fw-bold"
                     style={{ textDecoration: "underline" }}
                   >
@@ -295,7 +296,7 @@ function Footer() {
                   </Link>
 
                   <Link
-                    to="/sustainability"
+                    to="/going-green"
                     className="text-black fw-bold"
                     style={{ textDecoration: "underline" }}
                   >
@@ -325,24 +326,24 @@ function Footer() {
                     CSR
                   </Link>
 
-                  <Link
+                  {/* <Link
                     to="/"
                     className="text-black fw-bold"
                     style={{ textDecoration: "underline" }}
                   >
                     Policy
-                  </Link>
+                  </Link> */}
                 </div>
                 <div className="d-flex flex-rows gap-2">
                   <Link
-                    href="/about#client"
+                    href="/about-us#client"
                     className="text-black mb-2 fw-bold"
                     style={{ textDecoration: "underline" }}
                   >
                     Buyers
                   </Link>
                   <Link
-                    to="/about#certifications"
+                    to="/about-us#certifications"
                     className="text-black fw-bold"
                     style={{ textDecoration: "underline" }}
                   >
@@ -372,12 +373,13 @@ function Footer() {
                     Employees
                   </Link>
                   <Link
-                    to="/about#owner"
+                    to="/about-us#directors"
                     state={{ scrollToDiv: true }}
                     className="text-black fw-bold"
                     style={{ textDecoration: "underline" }}
                   >
-                    Messages
+                    {/* Messages */}
+                    Board Of Directors
                   </Link>
                 </div>
               </div>

@@ -12,7 +12,7 @@ import ChestPrint from "./AllService/chestPrint";
 import Embroidery from "./AllService/embroidery";
 import Garments from "./AllService/garments";
 import Wash from "./AllService/wash";
-import Accreditation from "./AllService//accreditation";
+import Accreditation from "./AllService/accreditation";
 import UnderGarments from "./AllService/underGarment";
 import Etp from "./AllService/effluentTreatment";
 // import "./Layout6.css";

@@ -120,7 +120,7 @@ const index = () => {
                     className="text-justify"
                   />
 
-                  <Link to="about" state={{ from: "readMore" }}>
+                  <Link to="about-us" state={{ from: "readMore" }}>
                     <Button className="border-0 about-button">
                       {homeRes?.data?.data?.about.button_text}
                     </Button>

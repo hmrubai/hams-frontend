@@ -22,3 +22,20 @@
   );
   border-image-slice: 1;
 } */
+
+@keyframes moveSideToSide {
+  0% {
+    transform: translateX(30px);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(30px);
+  }
+}
+
+.card-icon-animation {
+  display: inline-block;
+  animation: moveSideToSide 8s ease-in-out infinite;
+}

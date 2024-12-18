@@ -81,6 +81,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { FaFileDownload } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import "./CertificationAbout.css";
 
 const CertificationCard = ({ elevating }) => {
   const { title, description, icon, year, file, link } = elevating;
@@ -99,8 +100,9 @@ const CertificationCard = ({ elevating }) => {
             src={`${import.meta.env.VITE_IMAGE_URL}/${icon}`}
             alt={title}
             style={{ width: "50px", height: "50px" }}
-            className="my-2"
+            className="my-2 card-icon-animation "
           />
+
           <Card.Title
             className="text-center fw-bold"
             style={{ color: "rgba(29, 47, 64, 1)" }}

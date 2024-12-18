@@ -26,7 +26,7 @@ const index = () => {
             {homeRes?.data?.data?.sustainability.description}
           </p>
           <div className="mt-n2">
-            <Link to="/sustainability">
+            <Link to="/going-green">
               <Button className="section-button primary-color border-0 d-lg-block d-none">
                 {homeRes?.data?.data?.sustainability.button_text}
               </Button>

@@ -40,7 +40,8 @@ const CardSlider = () => {
       image: photo4,
       title: "HAMS GARMENTS LTD",
       description: "14000+",
-      link: `/hamsGarment`,
+      // link: `/hamsGarment`,
+      link: `/hams-garment-ltd`,
     },
 
     {

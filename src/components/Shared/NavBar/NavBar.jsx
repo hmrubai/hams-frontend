@@ -185,7 +185,7 @@ const NavBar = () => {
                 </NavLink> */}
                 {/* Home page route nav links start ===  */}
                 <NavLink
-                  to="/home-page-route"
+                  to="/"
                   className={({ isActive }) =>
                     (isActive ? "active " : "") +
                     "text-color ms-2 text-decoration-none hover-link navbar-font"
@@ -202,7 +202,7 @@ const NavBar = () => {
                 </NavLink> */}
                 {/* About us page route nav links start ===  */}
                 <NavLink
-                  to="/about-route"
+                  to="/about-us"
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
                 >
                   About Us
@@ -260,7 +260,7 @@ const NavBar = () => {
                 {/* ======== Compliance & CSR route nav links start ==== */}
                 <NavLink
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
-                  to="/compliance-csr-route"
+                  to="/compliance-csr"
                 >
                   Compliance & CSR
                 </NavLink>
@@ -273,7 +273,7 @@ const NavBar = () => {
                 </NavLink> */}
                 {/* ======== Impact Stories route nav links start ==== */}
                 <NavLink
-                  to="impact-stories-route"
+                  to="impact-stories"
                   className="text-color text-decoration-none navbar-font ms-2"
                 >
                   Impact Stories
@@ -287,7 +287,7 @@ const NavBar = () => {
                 </NavLink> */}
                 {/* ======== Employee First route nav links start ==== */}
                 <NavLink
-                  to="/employee-first-route"
+                  to="/employee-first"
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
                 >
                   Employee First

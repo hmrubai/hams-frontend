@@ -38,7 +38,7 @@ const boardDirectorHAMS = () => {
   ];
 
   return (
-    <div className="container my-5 text-center">
+    <div id="directors" className="container my-5 text-center">
       <h6 className="secondary-heading">HAMS GROUP</h6>
       <h2 className="primary-heading mb-4">Board Of Directors</h2>
       <Table responsive hover className="table-striped align-middle">

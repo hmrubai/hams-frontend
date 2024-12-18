@@ -10,7 +10,7 @@ const index = () => {
       {/* Product & Service Tab Content */}
       <ProductServiceTab />
       {/* ACHIEVEMENTS Component  */}
-      <Achievement />
+      <Achievement id="achievement" />
     </>
   );
 };
