@@ -108,6 +108,11 @@ const HomePage = Loadable(lazy(() => import("../../components/Home/index")));
 //About Us file path start ==
 const AboutUs = Loadable(lazy(() => import("../../components/About/index")));
 
+//Product & Services file path start ==
+const ProductService = Loadable(
+  lazy(() => import("../../components/ProductService/index"))
+);
+
 // =====================New route end ===================
 
 // Company name wise start file path =======
@@ -436,6 +441,14 @@ const router = createBrowserRouter([
       },
 
       //About Us page Route path end ==
+
+      // Product & Service Route path star ==
+      {
+        path: "/product-service-route",
+        element: <ProductService />,
+      },
+
+      // Product & Service Route path end ==
 
       // ================== new route path end =================
       //Company Name Route path start ==

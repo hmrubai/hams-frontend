@@ -228,6 +228,15 @@ const NavBar = () => {
                 >
                   Products & Services
                 </NavLink>
+                {/* ======== Product & Service route nav links start ==== */}
+                {/* <NavLink
+                  to="/product-service-route"
+                  className="text-color ms-2 text-decoration-none hover-link navbar-font"
+                >
+                  Products & Services
+                  new route
+                </NavLink> */}
+                {/* ======== Product & Service route nav links end ==== */}
                 {/* <NavLink
                   to="/sustainability"
                   className="text-color ms-2 text-decoration-none hover-link navbar-font"
